@@ -1,3 +1,5 @@
+
+from openpyxl import load_workbook
 import csv
 import xlrd
 files = []
@@ -33,56 +35,97 @@ def processNet(filename):
             elif original_data[i] not in ["[", "]", "(", ")"] and c != 0:
                 column_two = original_data[i]
                 temp_dict = {
-                    "column_one": column_one,
-                    "column_two": column_two
+                    "column_one": column_one.replace('"', ''),
+                    "column_two": (column_two.replace("-", ".")).replace('"', '')
                 }
                 final_data.append(temp_dict)
             else:
                 c = 0
-                
-    createFormattedFile(final_data, filename)
-    
 
-def processXls(filename):
-    type = int(input("Enter the type of xls file for " + str(filename) + ", 1: Cadence OR 2: Xpedition: "))
+    createFormattedFile(final_data, filename)
+
+
+def processXls(filename, fmt):
+    type = int(input("Enter the type of xls file for " +
+               str(filename) + ", 1: Cadence OR 2: Xpedition: "))
     final_data = list()
     column_one = ""
     column_two = ""
-    if type == 1:
-        wb = xlrd.open_workbook(filename)
-        sheet = wb.sheet_by_index(0)
-        for i in range(3, sheet.nrows):
-            column_one = sheet.cell_value(i, 0)
-            cmps = sheet.cell_value(i, 1).split()
-            for j in cmps:
-                column_two = j
-                temp_dict = {
-                    "column_one": column_one,
-                    "column_two": column_two
-                }
-                final_data.append(temp_dict)
-
-    elif type == 2:
-        wb = xlrd.open_workbook(filename)
-        sheet = wb.sheet_by_index(0)
-        for i in range(3, sheet.nrows):
-            if (sheet.cell_value(i, 0) != ""):
+    if fmt == "xls":
+        if type == 1:
+            wb = xlrd.open_workbook(filename)
+            sheet = wb.sheet_by_index(0)
+            for i in range(3, sheet.nrows):
                 column_one = sheet.cell_value(i, 0)
-                continue
-            elif (sheet.cell_value(i, 0) == "" and sheet.cell_value(i, 3) == ""):
-                continue
-            elif (sheet.cell_value(i, 0) == ""):
-                column_two = sheet.cell_value(i, 3)
-                temp_dict = {
-                    "column_one": column_one,
-                    "column_two": column_two
-                }
-                final_data.append(temp_dict)
+                cmps = sheet.cell_value(i, 1).split()
+                for j in cmps:
+                    column_two = j
+                    temp_dict = {
+                        "column_one": column_one.replace('"', ''),
+                        "column_two": (column_two.replace("-", ".")).replace('"', '')
+                    }
+                    final_data.append(temp_dict)
+
+        elif type == 2:
+            wb = xlrd.open_workbook(filename)
+            sheet = wb.sheet_by_index(0)
+            for i in range(3, sheet.nrows):
+                if (sheet.cell_value(i, 0) != ""):
+                    column_one = sheet.cell_value(i, 0)
+                    continue
+                elif (sheet.cell_value(i, 0) == "" and sheet.cell_value(i, 3) == ""):
+                    continue
+                elif (sheet.cell_value(i, 0) == ""):
+                    column_two = sheet.cell_value(i, 3)
+                    temp_dict = {
+                        "column_one": column_one.replace('"', ''),
+                        "column_two": (column_two.replace("-", ".")).replace('"', '')
+                    }
+                    final_data.append(temp_dict)
+        else:
+            print("Invalid input, Please enter 1 or 2")
+            return
+
     else:
-        print("Invalid input, Please enter 1 or 2")
-        return
+        if type == 1:
+            wb = load_workbook(filename)
+            sheet = wb[wb.sheetnames[0]]
+            for row in range(2, sheet.max_row+1):
+                for column in "AB":
+                    if column == "A" and sheet[cell].value != None:
+                        column_one = sheet[cell].value
+                    elif column == "B" and sheet[cell].value != None:
+                        cmps = sheet[cell].value.split()
+                        for j in cmps:
+                            column_two = j
+                            temp_dict = {
+                                "column_one": column_one.replace('"', ''),
+                                "column_two": (column_two.replace("-", ".")).replace('"', '')
+                            }
+                            final_data.append(temp_dict)
+
+        elif type == 2:
+            wb = load_workbook(filename)
+            sheet = wb[wb.sheetnames[0]]
+            for row in range(2, sheet.max_row+1):
+                for column in "AB":
+                    cell = "{}{}".format(column, row)
+                    if column == "A" and sheet[cell].value != None and sheet["{}{}".format("B", row)].value == None:
+                        column_one = sheet[cell].value
+                    elif column == "B" and sheet[cell].value != None and sheet["{}{}".format("A", row)].value == None:
+                        column_two = sheet[cell].value
+                        temp_dict = {
+                            "column_one": column_one.replace('"', ''),
+                            "column_two": (column_two.replace("-", ".")).replace('"', '')
+                        }
+                        final_data.append(temp_dict)
+
+        else:
+            print("Invalid input, Please enter 1 or 2")
+            return
 
     createFormattedFile(final_data, filename)
+
 
 def processText(filename):
     original_data = list()
@@ -135,8 +178,8 @@ def getMappings(data, type):
                 column_two = i[0] + i[1]
 
             temp_dict = {
-                "column_one": column_one,
-                "column_two": column_two
+                "column_one": column_one.replace('"', ''),
+                "column_two": (column_two.replace("-", ".")).replace('"', '')
             }
             final_data.append(temp_dict)
         return final_data
@@ -150,8 +193,8 @@ def getMappings(data, type):
                 for j in i:
                     column_two = j
                     temp_dict = {
-                        "column_one": column_one,
-                        "column_two": column_two
+                        "column_one": column_one.replace('"', ''),
+                        "column_two": (column_two.replace("-", ".")).replace('"', '')
                     }
                     final_data.append(temp_dict)
         return final_data
@@ -164,7 +207,7 @@ for file in files:
     fileformat = file.split(".")[1]
     if fileformat == "txt":
         processText(file)
-    elif fileformat == "xls":
-        processXls(file)
+    elif fileformat == "xls" or fileformat == "xlsx":
+        processXls(file, fileformat)
     elif fileformat == "net":
         processNet(file)
