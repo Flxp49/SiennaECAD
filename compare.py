@@ -1,3 +1,4 @@
+import os
 import csv
 import pandas as pd
 files = []
@@ -27,8 +28,12 @@ def compare():
             mismatch.append(cmp)
     print(len(match))
     print(len(mismatch))
-    pd.DataFrame(match, columns=['column_one', 'column_two']).to_csv("Match.csv")
-    pd.DataFrame(mismatch, columns=['column_one', 'column_two']).drop_duplicates(keep=False).to_csv("Mismatch.csv")
+    current_directory = os.getcwd()
+    final_directory = os.path.join(current_directory, r'Compare')
+    if not os.path.exists(final_directory):
+        os.makedirs(final_directory)
+    pd.DataFrame(match, columns=['Net Name', 'Component Name']).to_csv("Compare/Match.csv")
+    pd.DataFrame(mismatch, columns=['Net Name', 'Component Name']).drop_duplicates(keep=False).to_csv("Compare/Mismatch.csv")
 
 
 def main():     

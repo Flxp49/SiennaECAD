@@ -8,7 +8,7 @@ files = []
 def createFormattedFile(data, filename):
     filename = (filename.split(".")[0]+"-f.csv")
     with open(filename, mode='w', newline='') as csv_file:
-        fieldnames = ['column_one', 'column_two']
+        fieldnames = ['Net Name', 'Component Name']
         writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
 
         writer.writeheader()
@@ -35,8 +35,8 @@ def processNet(filename):
             elif original_data[i] not in ["[", "]", "(", ")"] and c != 0:
                 column_two = original_data[i]
                 temp_dict = {
-                    "column_one": column_one.replace('"', ''),
-                    "column_two": (column_two.replace("-", ".")).replace('"', '')
+                    "Net Name": column_one.replace('"', ''),
+                    "Component Name": (column_two.replace("-", ".")).replace('"', '')
                 }
                 final_data.append(temp_dict)
             else:
@@ -61,8 +61,8 @@ def processXls(filename, fmt):
                 for j in cmps:
                     column_two = j
                     temp_dict = {
-                        "column_one": column_one.replace('"', ''),
-                        "column_two": (column_two.replace("-", ".")).replace('"', '')
+                        "Net Name": column_one.replace('"', ''),
+                        "Component Name": (column_two.replace("-", ".")).replace('"', '')
                     }
                     final_data.append(temp_dict)
 
@@ -78,8 +78,8 @@ def processXls(filename, fmt):
                 elif (sheet.cell_value(i, 0) == ""):
                     column_two = sheet.cell_value(i, 3)
                     temp_dict = {
-                        "column_one": column_one.replace('"', ''),
-                        "column_two": (column_two.replace("-", ".")).replace('"', '')
+                        "Net Name": column_one.replace('"', ''),
+                        "Component Name": (column_two.replace("-", ".")).replace('"', '')
                     }
                     final_data.append(temp_dict)
         else:
@@ -99,8 +99,8 @@ def processXls(filename, fmt):
                         for j in cmps:
                             column_two = j
                             temp_dict = {
-                                "column_one": column_one.replace('"', ''),
-                                "column_two": (column_two.replace("-", ".")).replace('"', '')
+                                "Net Name": column_one.replace('"', ''),
+                                "Component Name": (column_two.replace("-", ".")).replace('"', '')
                             }
                             final_data.append(temp_dict)
 
@@ -115,8 +115,8 @@ def processXls(filename, fmt):
                     elif column == "B" and sheet[cell].value != None and sheet["{}{}".format("A", row)].value == None:
                         column_two = sheet[cell].value
                         temp_dict = {
-                            "column_one": column_one.replace('"', ''),
-                            "column_two": (column_two.replace("-", ".")).replace('"', '')
+                            "Net Name": column_one.replace('"', ''),
+                            "Component Name": (column_two.replace("-", ".")).replace('"', '')
                         }
                         final_data.append(temp_dict)
 
@@ -178,8 +178,8 @@ def getMappings(data, type):
                 column_two = i[0] + i[1]
 
             temp_dict = {
-                "column_one": column_one.replace('"', ''),
-                "column_two": (column_two.replace("-", ".")).replace('"', '')
+                "Net Name": column_one.replace('"', ''),
+                "Component Name": (column_two.replace("-", ".")).replace('"', '')
             }
             final_data.append(temp_dict)
         return final_data
@@ -193,8 +193,8 @@ def getMappings(data, type):
                 for j in i:
                     column_two = j
                     temp_dict = {
-                        "column_one": column_one.replace('"', ''),
-                        "column_two": (column_two.replace("-", ".")).replace('"', '')
+                        "Net Name": column_one.replace('"', ''),
+                        "Component Name": (column_two.replace("-", ".")).replace('"', '')
                     }
                     final_data.append(temp_dict)
         return final_data
