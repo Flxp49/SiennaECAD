@@ -47,7 +47,7 @@ def processNet(filename):
 
 def processXls(filename, fmt):
     type = int(input("Enter the type of xls file for " +
-               str(filename) + ", 1: Cadence OR 2: Xpedition: "))
+               str(filename) + ", 1: Cadence OR 2: Allego OR 3: Xpedition: "))
     final_data = list()
     column_one = ""
     column_two = ""
@@ -83,15 +83,17 @@ def processXls(filename, fmt):
                     }
                     final_data.append(temp_dict)
         else:
-            print("Invalid input, Please enter 1 or 2")
+            print("Invalid input, Please enter 1 or 2 for xls support")
             return
 
     else:
-        if type == 1:
+        if type == 1 or 2:
             wb = load_workbook(filename)
             sheet = wb[wb.sheetnames[0]]
-            for row in range(2, sheet.max_row+1):
+            s = 2 if type == 1 else 6
+            for row in range(s, sheet.max_row+1):
                 for column in "AB":
+                    cell = "{}{}".format(column, row)
                     if column == "A" and sheet[cell].value != None:
                         column_one = sheet[cell].value
                     elif column == "B" and sheet[cell].value != None:
@@ -121,7 +123,7 @@ def processXls(filename, fmt):
                         final_data.append(temp_dict)
 
         else:
-            print("Invalid input, Please enter 1 or 2")
+            print("Invalid input, Please enter 1, 2 or 3")
             return
 
     createFormattedFile(final_data, filename)

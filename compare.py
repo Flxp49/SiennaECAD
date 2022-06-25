@@ -17,9 +17,18 @@ def process(file):
     data.append(fileData)
 
 def compare():
-    m = 0
     for cmp in data[0]: 
+        m = 0
         for j in data[1]:
+            if cmp[0] == j[0] and cmp[1] == j[1]:
+                match.append(cmp)
+                m = 1
+                break
+        if (m != 1):
+            mismatch.append(cmp)
+    for cmp in data[1]: 
+        m = 0
+        for j in data[0]:
             if cmp[0] == j[0] and cmp[1] == j[1]:
                 match.append(cmp)
                 m = 1
@@ -32,7 +41,7 @@ def compare():
     final_directory = os.path.join(current_directory, r'Compare')
     if not os.path.exists(final_directory):
         os.makedirs(final_directory)
-    pd.DataFrame(match, columns=['Net Name', 'Component Name']).to_csv("Compare/Match.csv")
+    pd.DataFrame(match, columns=['Net Name', 'Component Name']).drop_duplicates(keep=False).to_csv("Compare/Match.csv")
     pd.DataFrame(mismatch, columns=['Net Name', 'Component Name']).drop_duplicates(keep=False).to_csv("Compare/Mismatch.csv")
 
 
