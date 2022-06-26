@@ -44,10 +44,12 @@ def processNet(filename):
 
     createFormattedFile(final_data, filename)
 
+# Cadence, Xpedition -> XLS
+# Allego, Xpedition -> XLSX
 
 def processXls(filename, fmt):
-    type = int(input("Enter the type of xls file for " +
-               str(filename) + ", 1: Cadence OR 2: Allego OR 3: Xpedition: "))
+    type = int(input("Enter the type of file for " +
+               str(filename) + ", 1: Cadence OR 2: Xpedition OR 3: Allego "))
     final_data = list()
     column_one = ""
     column_two = ""
@@ -83,14 +85,14 @@ def processXls(filename, fmt):
                     }
                     final_data.append(temp_dict)
         else:
-            print("Invalid input, Please enter 1 or 2 for xls support")
+            print("Invalid input, Please enter 1 or 2 for xls files")
             return
 
     else:
-        if type == 1 or 2:
+        if type == 2 or 3:
             wb = load_workbook(filename)
             sheet = wb[wb.sheetnames[0]]
-            s = 2 if type == 1 else 6
+            s = 2 if type == 2 else 6
             for row in range(s, sheet.max_row+1):
                 for column in "AB":
                     cell = "{}{}".format(column, row)
@@ -106,24 +108,8 @@ def processXls(filename, fmt):
                             }
                             final_data.append(temp_dict)
 
-        elif type == 2:
-            wb = load_workbook(filename)
-            sheet = wb[wb.sheetnames[0]]
-            for row in range(2, sheet.max_row+1):
-                for column in "AB":
-                    cell = "{}{}".format(column, row)
-                    if column == "A" and sheet[cell].value != None and sheet["{}{}".format("B", row)].value == None:
-                        column_one = sheet[cell].value
-                    elif column == "B" and sheet[cell].value != None and sheet["{}{}".format("A", row)].value == None:
-                        column_two = sheet[cell].value
-                        temp_dict = {
-                            "Net Name": column_one.replace('"', ''),
-                            "Component Name": (column_two.replace("-", ".")).replace('"', '')
-                        }
-                        final_data.append(temp_dict)
-
         else:
-            print("Invalid input, Please enter 1, 2 or 3")
+            print("Invalid input, Please enter 2 or 3 for xlsx files")
             return
 
     createFormattedFile(final_data, filename)
