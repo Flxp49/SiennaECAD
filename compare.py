@@ -2,11 +2,13 @@ import os
 import pandas as pd
 files = []
 
+# Allegro_netlist-f.csv
+# DX-Netlist-f.csv
 
 def compare():
     df1 = pd.read_csv(files[0])
     df2 = pd.read_csv(files[1])
-    df1 = pd.concat([df1, df2]).drop_duplicates(keep="first")
+    df1 = pd.concat([df1, df2])
     print(df1)
     mdf = df1[df1.duplicated("Component Name", keep=False)].drop_duplicates(keep="first")
     print(mdf)
@@ -18,6 +20,13 @@ def compare():
         os.makedirs(final_directory)
     mdf.to_csv("Compare/Match.csv")
     misdf.to_csv("Compare/Mismatch.csv")
+    # verify(mdf, misdf, df1)
+
+# def verify(d1, d2, d):
+#     d1 = pd.concat([d1,d2]).drop_duplicates(keep=False)
+#     print(d1)
+#     print(d.drop_duplicates())
+
 
 
 def main():     
