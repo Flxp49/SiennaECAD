@@ -1,0 +1,1259 @@
+.HEA
+.TIM 2022 07 21 14 51 01
+.APP "Cadstar RINF Output - Version 2018.0.0.111"
+.UNI INCH 1000.0 in
+.TYP FULL
+
+.ADD_COM    C24        "L1557 (0805)"
+.ADD_COM    D6         "L2362 (SMA-DO214AC + DO214BA)"
+.ADD_COM    D2         "L2362 (SMA-DO214AC + DO214BA)"
+.ADD_COM    R26        "L1557 (0805)"
+.ADD_COM    R6         "L1557 (0805)"
+.ADD_COM    R9         "L1557 (0805)"
+.ADD_COM    C22        "L1557 (0805)"
+.ADD_COM    L2         "L1557 (0805)"
+.ADD_COM    R12        "L1557 (0805)"
+.ADD_COM    R32        "L1557 (0805)"
+.ADD_COM    R35        "L1557 (0805)"
+.ADD_COM    D1         "L2362 (SMA-DO214AC + DO214BA)"
+.ADD_COM    D5         "L2362 (SMA-DO214AC + DO214BA)"
+.ADD_COM    R25        "L1557 (0805)"
+.ADD_COM    C3         "L2002 (CASE AB D4)"
+.ADD_COM    R18        "L1557 (0805)"
+.ADD_COM    R28        "L1557 (0805)"
+.ADD_COM    R40        "L1660 (2512)"
+.ADD_COM    U3         "L13517 (SC70-3L)"
+.ADD_COM    HTP94      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    R27        "L1557 (0805)"
+.ADD_COM    R48        "L1557 (0805)"
+.ADD_COM    D9         "L2362 (SMA-DO214AC + DO214BA)"
+.ADD_COM    Q1         "L1662 (SO8)"
+.ADD_COM    R19        "L1557 (0805)"
+.ADD_COM    R46        "L1557 (0805)"
+.ADD_COM    HTP107     "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    J2         "L15082 (CONN JST 4POLI 90G SMD S4B-PH-SM3-TB)"
+.ADD_COM    R5         "L1660 (2512)"
+.ADD_COM    U1         "74HC14-SMD" "74HC14-SMD"
+.ADD_COM    Q8         "L1662 (SO8)"
+.ADD_COM    C23        "L1557 (0805)"
+.ADD_COM    HTP33      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    J1         "L5208"
+.ADD_COM    Q6         "L1662 (SO8)"
+.ADD_COM    HTP108     "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    D15        "L2362 (SMA-DO214AC + DO214BA)"
+.ADD_COM    R37        "L1557 (0805)"
+.ADD_COM    R2         "L1557 (0805)"
+.ADD_COM    HTP51      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    D7         "L1557-LED (0805 LED)"
+.ADD_COM    Q5         "L1662 (SO8)"
+.ADD_COM    D8         "L1557-LED (0805 LED)"
+.ADD_COM    R33        "L1557 (0805)"
+.ADD_COM    C4         "L1557 (0805)"
+.ADD_COM    R23        "L1557 (0805)"
+.ADD_COM    Y1         "L13252 (JAUCH SMU2 SMU3 SMU4 HC49/4HSMX HCM49)"
+.ADD_COM    R30        "L1557 (0805)"
+.ADD_COM    C7         "L1557 (0805)"
+.ADD_COM    R36        "L1557 (0805)"
+.ADD_COM    R22        "L1557 (0805)"
+.ADD_COM    C19        "L1557 (0805)"
+.ADD_COM    R15        "L1557 (0805)"
+.ADD_COM    D10        "L2362 (SMA-DO214AC + DO214BA)"
+.ADD_COM    R42        "L1557 (0805)"
+.ADD_COM    R57        "L1557 (0805)"
+.ADD_COM    C6         "L1557 (0805)"
+.ADD_COM    R8         "L1557 (0805)"
+.ADD_COM    L1         "L1557 (0805)"
+.ADD_COM    R17        "L1557 (0805)"
+.ADD_COM    R3         "L1557 (0805)"
+.ADD_COM    R21        "L1557 (0805)"
+.ADD_COM    C5         "L2533 (CASE -- D8)"
+.ADD_COM    R13        "L1557 (0805)"
+.ADD_COM    R4         "L1557 (0805)"
+.ADD_COM    R14        "L1557 (0805)"
+.ADD_COM    R56        "L1557 (0805)"
+.ADD_COM    J4         "L3106"
+.ADD_COM    J3         "L15081 (CONN JST 5POLI 90G SMD S5B-PH-SM3-TB )"
+.ADD_COM    R10        "L1557 (0805)"
+.ADD_COM    HTP34      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    Q2         "L1662 (SO8)"
+.ADD_COM    C18        "L1557 (0805)"
+.ADD_COM    C8         "L1557 (0805)"
+.ADD_COM    Q7         "L1662 (SO8)"
+.ADD_COM    D12        "L1556 (SOT23)"
+.ADD_COM    R39        "L1557 (0805)"
+.ADD_COM    D4         "L2362 (SMA-DO214AC + DO214BA)"
+.ADD_COM    R1         "L1557 (0805)"
+.ADD_COM    C17        "L1557 (0805)"
+.ADD_COM    Q3         "L1662 (SO8)"
+.ADD_COM    D3         "L2362 (SMA-DO214AC + DO214BA)"
+.ADD_COM    R31        "L1557 (0805)"
+.ADD_COM    C11        "L1557 (0805)"
+.ADD_COM    R24        "L1557 (0805)"
+.ADD_COM    HTP2       "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    C10        "L1557 (0805)"
+.ADD_COM    R7         "L1557 (0805)"
+.ADD_COM    C1         "L1557 (0805)"
+.ADD_COM    C9         "L1557 (0805)"
+.ADD_COM    C13        "L1557 (0805)"
+.ADD_COM    HTP44      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP55      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    R29        "L1557 (0805)"
+.ADD_COM    Q4         "L1662 (SO8)"
+.ADD_COM    R38        "L1557 (0805)"
+.ADD_COM    R20        "L1557 (0805)"
+.ADD_COM    C16        "L1557 (0805)"
+.ADD_COM    R16        "L1660 (2512)"
+.ADD_COM    HTP31      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP98      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    R52        "L1553 (1206)"
+.ADD_COM    C33        "L1557 (0805)"
+.ADD_COM    D13        "L1556 (SOT23)"
+.ADD_COM    R49        "L1557 (0805)"
+.ADD_COM    C2         "L1557 (0805)"
+.ADD_COM    HTP89      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP4       "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP64      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP23      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP27      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP60      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP10      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP52      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP77      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP3       "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP42      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP75      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP66      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP48      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP67      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP5       "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP29      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP15      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP74      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP28      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP32      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP16      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP35      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    C28        "L2002 (CASE AB D4)"
+.ADD_COM    U5         "L8313 (MSOP8 TEXAS DGK S-PDSO-G8)"
+.ADD_COM    HTP41      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    FID1       "FIDUCIAL-01 (KEEPOUT AREA TOP)"
+.ADD_COM    HTP71      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP90      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP39      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP11      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP14      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP22      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP65      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP21      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP53      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP36      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP57      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP73      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP68      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP6       "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP76      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP56      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP59      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP62      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP46      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP69      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP20      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP26      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP70      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP61      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP49      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP13      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP12      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP17      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP47      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP72      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP78      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP43      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP1       "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP58      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP9       "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP63      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP25      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP18      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    C12        "L2533 (CASE -- D8)"
+.ADD_COM    HTP45      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    C34        "L2533 (CASE -- D8)"
+.ADD_COM    U2         "L8744 (SO28 MICROCHIP)"
+.ADD_COM    L3         "L16320 (INDUTT SMD WE-PD4 TYPE S)"
+.ADD_COM    D11        "L13051 (SOD123)"
+.ADD_COM    HTP7       "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    R11        "L1557 (0805)"
+.ADD_COM    R34        "L1660 (2512)"
+.ADD_COM    HTP79      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HLG2       "LOGO GAMBRO RAME 16X4mm"
+.ADD_COM    R41        "L1557 (0805)"
+.ADD_COM    HTP38      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    D14        "L13051 (SOD123)"
+.ADD_COM    HTP82      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP80      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP83      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP81      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    R55        "L1557 (0805)"
+.ADD_COM    R45        "L1557 (0805)"
+.ADD_COM    R51        "L1557 (0805)"
+.ADD_COM    HTP84      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP103     "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    R47        "L1557 (0805)"
+.ADD_COM    HTP54      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP85      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP100     "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP106     "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP24      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    D16        "L13051 (SOD123)"
+.ADD_COM    HTP97      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP40      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP96      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP19      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP95      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP50      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP102     "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP99      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    C32        "L1743 (1210)"
+.ADD_COM    HLG1       "LOGO GAMBRO SERIGRAFIA 14.5X3.5mm"
+.ADD_COM    HTP126     "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP105     "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    FID2       "FIDUCIAL-01 (KEEPOUT AREA TOP)"
+.ADD_COM    HTP86      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP37      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP125     "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP104     "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP87      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP88      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP91      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP92      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP101     "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP93      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    D17        "L1557-LED (0805 LED)"
+.ADD_COM    R44        "L1557 (0805)"
+.ADD_COM    R67        "L1557 (0805)"
+.ADD_COM    R78        "L1557 (0805)"
+.ADD_COM    R68        "L1557 (0805)"
+.ADD_COM    C14        "L1557 (0805)"
+.ADD_COM    HTP30      "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    HTP8       "TEST POINT (P C60 - OUTLINE 100mils X TEST IN CIRCUIT)"
+.ADD_COM    FID3       "FIDUCIAL-01 (KEEPOUT AREA TOP)"
+.ADD_COM    C37        "L1557 (0805)"
+.ADD_COM    C36        "L1557 (0805)"
+.ADD_COM    C21        "L1557 (0805)"
+.ADD_COM    C15        "L1557 (0805)"
+.ADD_COM    C20        "L1557 (0805)"
+.ADD_COM    R81        "L1557 (0805)"
+.ADD_COM    R72        "RESC3116X65N_A"
+.ADD_COM    C26        "L1557 (0805)"
+.ADD_COM    C27        "L1557 (0805)"
+.ADD_COM    C29        "L2002 (CASE AB D4)"
+.ADD_COM    C30        "L1743 (1210)"
+.ADD_COM    C31        "L1743 (1210)"
+.ADD_COM    R58        "L1557 (0805)"
+.ADD_COM    C39        "L1557 (0805)"
+.ADD_COM    C40        "L1557 (0805)"
+.ADD_COM    C41        "L1557 (0805)"
+.ADD_COM    R43        "L1557 (0805)"
+.ADD_COM    C25        "L1557 (0805)"
+.ADD_COM    R53        "L1557 (0805)"
+.ADD_COM    R62        "L1557 (0805)"
+.ADD_COM    R66        "L1557 (0805)"
+.ADD_COM    R71        "L1557 (0805)"
+.ADD_COM    R73        "L1557 (0805)"
+.ADD_COM    R74        "L1557 (0805)"
+.ADD_COM    R75        "L1557 (0805)"
+.ADD_COM    R76        "L1557 (0805)"
+.ADD_COM    R79        "L1557 (0805)"
+.ADD_COM    U4         "TQFP50P900X900X120-49N"
+.ADD_COM    R77        "L1557 (0805)"
+.ADD_COM    C38        "L1557 (0805)"
+.ADD_COM    R80        "L1557 (0805)"
+
+.ATT_COM    C24                   "Value"              "1000pF 50V X7R SMD SMD 0805"
+.ATT_COM    C24                   "(OldCtfName)"       "C16"
+.ATT_COM    D6                    "Value"              "15MQ040 SMD SMA"
+.ATT_COM    D6                    "(OldCtfName)"       "D9"
+.ATT_COM    D2                    "Value"              "15MQ040 SMD SMA"
+.ATT_COM    D2                    "(OldCtfName)"       "D8"
+.ATT_COM    R26                   "Value"              "10K 0.125W SMD 0805"
+.ATT_COM    R26                   "(OldCtfName)"       "R60"
+.ATT_COM    R6                    "Value"              "10K 0.125W SMD 0805"
+.ATT_COM    R6                    "(OldCtfName)"       "R25"
+.ATT_COM    R9                    "Value"              "470 0.1W SMD 0805"
+.ATT_COM    C22                   "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    C22                   "Value"              "100nF 50V X7R SMD 0805"
+.ATT_COM    L2                    "Value"              "BLM21PG220 SMD 0805"
+.ATT_COM    R12                   "Value"              "33 0.1W SMD 0805"
+.ATT_COM    R12                   "(OldCtfName)"       "R30"
+.ATT_COM    R32                   "Value"              "470K 0.1W SMD 0805"
+.ATT_COM    R32                   "(OldCtfName)"       "R41"
+.ATT_COM    R35                   "Value"              "1K 0.125W SMD 0805"
+.ATT_COM    R35                   "(OldCtfName)"       "R36"
+.ATT_COM    D1                    "Value"              "15MQ040 SMD SMA"
+.ATT_COM    D1                    "(OldCtfName)"       "D3"
+.ATT_COM    D5                    "Value"              "15MQ040 SMD SMA"
+.ATT_COM    D5                    "(OldCtfName)"       "D4"
+.ATT_COM    R25                   "Value"              "10K 0.125W SMD 0805"
+.ATT_COM    R25                   "(OldCtfName)"       "R18"
+.ATT_COM    C3                    "Value"              "10uF 16V SMD D=4mm; L=4.3mm; W=4.3mm; H=5.3 mm"
+.ATT_COM    C3                    "(OldCtfName)"       "C4"
+.ATT_COM    R18                   "Value"              "470 0.1W SMD 0805"
+.ATT_COM    R18                   "(OldCtfName)"       "R10"
+.ATT_COM    R28                   "Value"              "470K 0.1W SMD 0805"
+.ATT_COM    R28                   "(OldCtfName)"       "R21"
+.ATT_COM    R40                   "Value"              "0.22 1W SMD 2512"
+.ATT_COM    R40                   "(OldCtfName)"       "R52"
+.ATT_COM    U3                    "Value"              "MAX803L SC70-3"
+.ATT_COM    HTP94                 "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    R27                   "Value"              "4.99K 0.125W SMD 0805"
+.ATT_COM    R27                   "(OldCtfName)"       "R32"
+.ATT_COM    R48                   "Value"              "0 0.125W SMD 0805"
+.ATT_COM    R48                   "(OldCtfName)"       "R24"
+.ATT_COM    D9                    "Value"              "15MQ040 SMD SMA"
+.ATT_COM    D9                    "(OldCtfName)"       "D10"
+.ATT_COM    Q1                    "Value"              "FDS5351 SMD SO8"
+.ATT_COM    R19                   "Value"              "1K 0.125W SMD 0805"
+.ATT_COM    R19                   "(OldCtfName)"       "R8"
+.ATT_COM    R46                   "Value"              "0 0.125W SMD 0805"
+.ATT_COM    R46                   "(OldCtfName)"       "R12"
+.ATT_COM    HTP107                "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    J2                    "Value"              "S4B-PH-SM3-TB"
+.ATT_COM    R5                    "Value"              "0.22 1W SMD 2512"
+.ATT_COM    R5                    "(OldCtfName)"       "R47"
+.ATT_COM    U1                    "Value"              "74HC14 SMD SOIC14"
+.ATT_COM    U1                    "(OldCtfName)"       "U2"
+.ATT_COM    Q8                    "Value"              "FDS5351 SMD SO8"
+.ATT_COM    C23                   "Value"              "100nF 50V X7R SMD 0805"
+.ATT_COM    C23                   "(OldCtfName)"       "C15"
+.ATT_COM    J1                    "Value"              "4x2 pin AMP MODU2 PTH"
+.ATT_COM    Q6                    "Value"              "FDS5351 SMD SO8"
+.ATT_COM    Q6                    "(OldCtfName)"       "Q7"
+.ATT_COM    HTP108                "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    D15                   "Value"              "15MQ040 SMD SMA"
+.ATT_COM    D15                   "(OldCtfName)"       "D11"
+.ATT_COM    R37                   "Value"              "1K 0.125W SMD 0805"
+.ATT_COM    R37                   "(OldCtfName)"       "R43"
+.ATT_COM    R2                    "Value"              "33 0.1W SMD 0805"
+.ATT_COM    R2                    "(OldCtfName)"       "R28"
+.ATT_COM    D7                    "Value"              "QTLP630C-4 LED Green SMD 0805"
+.ATT_COM    D7                    "(OldCtfName)"       "D17"
+.ATT_COM    Q5                    "Value"              "FDS5351 SMD SO8"
+.ATT_COM    Q5                    "(OldCtfName)"       "Q6"
+.ATT_COM    D8                    "Value"              "QTLP630C-4 LED Green SMD 0805"
+.ATT_COM    D8                    "(OldCtfName)"       "D1000"
+.ATT_COM    R33                   "Value"              "33 0.1W SMD 0805"
+.ATT_COM    R33                   "(OldCtfName)"       "R53"
+.ATT_COM    C4                    "Value"              "100nF 50V X7R SMD 0805"
+.ATT_COM    C4                    "(OldCtfName)"       "C5"
+.ATT_COM    R23                   "Value"              "10K 0.125W SMD 0805"
+.ATT_COM    R23                   "(OldCtfName)"       "R16"
+.ATT_COM    Y1                    "Value"              "10MHz SMD SMU4"
+.ATT_COM    R30                   "Value"              "33 0.1W SMD 0805"
+.ATT_COM    R30                   "(OldCtfName)"       "R31"
+.ATT_COM    C7                    "Value"              "100pF 50V NPO SMD 0805"
+.ATT_COM    C7                    "(OldCtfName)"       "C10"
+.ATT_COM    R36                   "Value"              "4.99K 0.125W SMD 0805"
+.ATT_COM    R36                   "(OldCtfName)"       "R35"
+.ATT_COM    R22                   "Value"              "470 0.1W SMD 0805"
+.ATT_COM    R22                   "(OldCtfName)"       "R13"
+.ATT_COM    C19                   "Value"              "100pF 50V NPO SMD 0805"
+.ATT_COM    C19                   "(OldCtfName)"       "C1000"
+.ATT_COM    R15                   "Value"              "33 0.1W SMD 0805"
+.ATT_COM    R15                   "(OldCtfName)"       "R50"
+.ATT_COM    D10                   "Value"              "15MQ040 SMD SMA"
+.ATT_COM    D10                   "(OldCtfName)"       "D5"
+.ATT_COM    R42                   "Value"              "100 0.1W SMD 0805"
+.ATT_COM    R42                   "(OldCtfName)"       "R33"
+.ATT_COM    R57                   "Value"              "0 0.125W SMD 0805"
+.ATT_COM    R57                   "(OldCtfName)"       "R7"
+.ATT_COM    C6                    "Value"              "1000pF 50V X7R SMD SMD 0805"
+.ATT_COM    C6                    "(OldCtfName)"       "C20"
+.ATT_COM    R8                    "Value"              "1K 0.125W SMD 0805"
+.ATT_COM    R8                    "(OldCtfName)"       "R2"
+.ATT_COM    L1                    "Value"              "BLM21PG220 SMD 0805"
+.ATT_COM    R17                   "Value"              "4.7K 0.1W SMD 0805"
+.ATT_COM    R17                   "(OldCtfName)"       "R27"
+.ATT_COM    R3                    "Value"              "470K 0.1W SMD 0805"
+.ATT_COM    R3                    "(OldCtfName)"       "R38"
+.ATT_COM    R21                   "Value"              "10K 0.125W SMD 0805"
+.ATT_COM    R21                   "(OldCtfName)"       "R17"
+.ATT_COM    C5                    "Value"              "47uF 50V SMD L=8 mm ; W=8 mm; H=10 mm"
+.ATT_COM    C5                    "(OldCtfName)"       "C6"
+.ATT_COM    R13                   "Value"              "470K 0.1W SMD 0805"
+.ATT_COM    R13                   "(OldCtfName)"       "R39"
+.ATT_COM    R4                    "Value"              "33 0.1W SMD 0805"
+.ATT_COM    R4                    "(OldCtfName)"       "R48"
+.ATT_COM    R14                   "Value"              "33 0.1W SMD 0805"
+.ATT_COM    R14                   "(OldCtfName)"       "R49"
+.ATT_COM    R56                   "Value"              "120K 0.125W SMD 0805"
+.ATT_COM    R56                   "(OldCtfName)"       "R11"
+.ATT_COM    J4                    "Value"              "6 pin Strip 6x1"
+.ATT_COM    J3                    "Value"              "S5B-PH-SM3-TB"
+.ATT_COM    R10                   "Value"              "470K 0.1W SMD 0805"
+.ATT_COM    R10                   "(OldCtfName)"       "R20"
+.ATT_COM    Q2                    "Value"              "FDS5351 SMD SO8"
+.ATT_COM    Q2                    "(OldCtfName)"       "Q5"
+.ATT_COM    C18                   "Value"              "100nF 50V X7R SMD 0805"
+.ATT_COM    C18                   "(OldCtfName)"       "C21"
+.ATT_COM    C8                    "Value"              "100pF 50V NPO SMD 0805"
+.ATT_COM    C8                    "(OldCtfName)"       "C9"
+.ATT_COM    Q7                    "Value"              "FDS5351 SMD SO8"
+.ATT_COM    Q7                    "(OldCtfName)"       "Q4"
+.ATT_COM    D12                   "Value"              "BAT54 SMD SOT-23"
+.ATT_COM    D12                   "(OldCtfName)"       "D16"
+.ATT_COM    R39                   "Value"              "2.2K 0.1W SMD 0805"
+.ATT_COM    R39                   "(OldCtfName)"       "R1002"
+.ATT_COM    D4                    "Value"              "15MQ040 SMD SMA"
+.ATT_COM    D4                    "(OldCtfName)"       "D2"
+.ATT_COM    R1                    "Value"              "470K 0.1W SMD 0805"
+.ATT_COM    R1                    "(OldCtfName)"       "R19"
+.ATT_COM    C17                   "Value"              "22pF 50V NPO SMD  0805"
+.ATT_COM    C17                   "(OldCtfName)"       "C32"
+.ATT_COM    Q3                    "Value"              "FDS5351 SMD SO8"
+.ATT_COM    Q3                    "(OldCtfName)"       "Q2"
+.ATT_COM    D3                    "Value"              "15MQ040 SMD SMA"
+.ATT_COM    D3                    "(OldCtfName)"       "D7"
+.ATT_COM    R31                   "Value"              "470K 0.1W SMD 0805"
+.ATT_COM    R31                   "(OldCtfName)"       "R40"
+.ATT_COM    C11                   "Value"              "10uF 25V X5R SMD 0805"
+.ATT_COM    C11                   "(OldCtfName)"       "C1001"
+.ATT_COM    R24                   "Value"              "470 0.1W SMD 0805"
+.ATT_COM    R24                   "(OldCtfName)"       "R15"
+.ATT_COM    C10                   "Value"              "1000pF 50V X7R SMD SMD 0805"
+.ATT_COM    C10                   "(OldCtfName)"       "C14"
+.ATT_COM    R7                    "Value"              "330 0.1W SMD 0805"
+.ATT_COM    R7                    "(OldCtfName)"       "R1"
+.ATT_COM    C1                    "Value"              "100nF 50V X7R SMD 0805"
+.ATT_COM    C1                    "(OldCtfName)"       "C19"
+.ATT_COM    C9                    "Value"              "100pF 50V NPO SMD 0805"
+.ATT_COM    C9                    "(OldCtfName)"       "C11"
+.ATT_COM    C13                   "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    C13                   "Value"              "100nF 50V X7R SMD 0805"
+.ATT_COM    R29                   "Value"              "470K 0.1W SMD 0805"
+.ATT_COM    R29                   "(OldCtfName)"       "R22"
+.ATT_COM    Q4                    "Value"              "FDS5351 SMD SO8"
+.ATT_COM    Q4                    "(OldCtfName)"       "Q3"
+.ATT_COM    R38                   "Value"              "2.2K 0.1W SMD 0805"
+.ATT_COM    R38                   "(OldCtfName)"       "R42"
+.ATT_COM    R20                   "Value"              "470 0.1W SMD 0805"
+.ATT_COM    R20                   "(OldCtfName)"       "R14"
+.ATT_COM    C16                   "Value"              "22pF 50V NPO SMD  0805"
+.ATT_COM    C16                   "(OldCtfName)"       "C31"
+.ATT_COM    R16                   "Value"              "0.22 1W SMD 2512"
+.ATT_COM    R16                   "(OldCtfName)"       "R46"
+.ATT_COM    HTP98                 "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    R52                   "Value"              "3.9 0.25W SMD 1206"
+.ATT_COM    R52                   "(OldCtfName)"       "R23"
+.ATT_COM    C33                   "Value"              "22nF 50V X7R SMD 0805"
+.ATT_COM    C33                   "(OldCtfName)"       "C8"
+.ATT_COM    D13                   "Value"              "BAT54 SMD SOT-23"
+.ATT_COM    D13                   "(OldCtfName)"       "D15"
+.ATT_COM    R49                   "Value"              "10K 0.125W SMD 0805"
+.ATT_COM    R49                   "(OldCtfName)"       "R34"
+.ATT_COM    C2                    "Value"              "100nF 50V X7R SMD 0805"
+.ATT_COM    C2                    "(OldCtfName)"       "C12"
+.ATT_COM    HTP89                 "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    C28                   "Value"              "10uF 16V SMD L=4.3mm; W=4.3mm; H=5.4/5.8mm"
+.ATT_COM    C28                   "(OldCtfName)"       "C13"
+.ATT_COM    U5                    "Value"              "LM5009MM SMD MSOP8"
+.ATT_COM    U5                    "(OldCtfName)"       "U1"
+.ATT_COM    FID1                  "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    HTP90                 "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    HTP78                 "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    C12                   "Value"              "47uF 50V SMD L=8 mm ; W=8 mm; H=10 mm"
+.ATT_COM    C12                   "(OldCtfName)"       "C18"
+.ATT_COM    C34                   "Value"              "47uF 50V SMD L=8 mm ; W=8 mm; H=10 mm"
+.ATT_COM    C34                   "(OldCtfName)"       "C3"
+.ATT_COM    U2                    "Value"              "PIC18F23K22-I/SO SO28"
+.ATT_COM    U2                    "(OldCtfName)"       "U5"
+.ATT_COM    L3                    "Value"              "330uH SMD WURTH 74455233"
+.ATT_COM    D11                   "Value"              "MMSD4148 SMD SOD-123"
+.ATT_COM    D11                   "(OldCtfName)"       "D12"
+.ATT_COM    R11                   "Value"              "33 0.1W SMD 0805"
+.ATT_COM    R11                   "(OldCtfName)"       "R29"
+.ATT_COM    R34                   "Value"              "0.22 1W SMD 2512"
+.ATT_COM    R34                   "(OldCtfName)"       "R51"
+.ATT_COM    HTP79                 "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    HLG2                  "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    R41                   "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    R41                   "Value"              "0 0.125W SMD 0805"
+.ATT_COM    D14                   "Value"              "MMSD4148 SMD SOD-123"
+.ATT_COM    D14                   "(OldCtfName)"       "D13"
+.ATT_COM    HTP82                 "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    HTP80                 "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    HTP83                 "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    HTP81                 "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    R55                   "Value"              "1K 0.125W SMD 0805"
+.ATT_COM    R55                   "(OldCtfName)"       "R6"
+.ATT_COM    R45                   "Value"              "10K 0.125W SMD 0805"
+.ATT_COM    R45                   "(OldCtfName)"       "R1000"
+.ATT_COM    R51                   "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    R51                   "Value"              "0 0.125W SMD 0805"
+.ATT_COM    HTP84                 "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    HTP103                "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    R47                   "Value"              "1.8K 0.1W SMD 0805"
+.ATT_COM    R47                   "(OldCtfName)"       "R37"
+.ATT_COM    HTP85                 "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    HTP100                "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    HTP106                "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    D16                   "Value"              "MMSD4148 SMD SOD-123"
+.ATT_COM    D16                   "(OldCtfName)"       "D6"
+.ATT_COM    HTP97                 "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    HTP96                 "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    HTP95                 "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    HTP102                "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    HTP99                 "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    C32                   "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    C32                   "Value"              "4.7uF 50V X7R SMD 1210"
+.ATT_COM    HLG1                  "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    HTP126                "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    HTP105                "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    FID2                  "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    HTP86                 "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    HTP125                "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    HTP104                "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    HTP87                 "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    HTP88                 "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    HTP91                 "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    HTP92                 "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    HTP101                "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    HTP93                 "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    D17                   "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    D17                   "Value"              "QTLP630C-4 LED Green SMD 0805"
+.ATT_COM    R44                   "Value"              "10K 0.125W SMD 0805"
+.ATT_COM    R44                   "(OldCtfName)"       "R26"
+.ATT_COM    R67                   "Value"              "1K 0.125W SMD 0805"
+.ATT_COM    R67                   "(OldCtfName)"       "R4"
+.ATT_COM    R78                   "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    R78                   "Value"              "470 0.1W SMD 0805"
+.ATT_COM    R68                   "Value"              "82K 0.125W SMD 0805"
+.ATT_COM    R68                   "(OldCtfName)"       "R5"
+.ATT_COM    C14                   "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    C14                   "Value"              "100nF 50V X7R SMD 0805"
+.ATT_COM    FID3                  "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    C37                   "Value"              "100nF 50V X7R SMD 0805"
+.ATT_COM    C37                   "(OldCtfName)"       "C1"
+.ATT_COM    C36                   "Value"              "220nF 25V X7R SMD 0805"
+.ATT_COM    C36                   "(OldCtfName)"       "C2"
+.ATT_COM    C21                   "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    C21                   "Value"              "100nF 50V X7R SMD 0805"
+.ATT_COM    C15                   "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    C15                   "Value"              "100nF 50V X7R SMD 0805"
+.ATT_COM    C20                   "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    C20                   "Value"              "0 0.125W SMD 0805"
+.ATT_COM    R81                   "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    R81                   "Value"              "10K 0.125W SMD 0805"
+.ATT_COM    R72                   "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    R72                   "Value"              "10K 0.125W SMD 0805"
+.ATT_COM    C26                   "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    C26                   "Value"              "100nF 50V X7R SMD 0805"
+.ATT_COM    C27                   "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    C27                   "Value"              "100nF 50V X7R SMD 0805"
+.ATT_COM    C29                   "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    C29                   "Value"              "10uF 16V SMD D=4mm; L=4.3mm; W=4.3mm; H=5.3 mm"
+.ATT_COM    C30                   "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    C30                   "Value"              "4.7uF 50V X7R SMD 1210"
+.ATT_COM    C31                   "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    C31                   "Value"              "4.7uF 50V X7R SMD 1210"
+.ATT_COM    R58                   "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    R58                   "Value"              "2K 0.125W SMD 0805"
+.ATT_COM    C39                   "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    C39                   "Value"              "100nF 50V X7R SMD 0805"
+.ATT_COM    C40                   "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    C40                   "Value"              "100nF 50V X7R SMD 0805"
+.ATT_COM    C41                   "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    C41                   "Value"              "100nF 50V X7R SMD 0805"
+.ATT_COM    R43                   "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    R43                   "Value"              "0 0.125W SMD 0805"
+.ATT_COM    C25                   "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    C25                   "Value"              "100nF 50V X7R SMD 0805"
+.ATT_COM    R53                   "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    R53                   "Value"              "0 0.125W SMD 0805"
+.ATT_COM    R62                   "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    R62                   "Value"              "10K 0.125W SMD 0805"
+.ATT_COM    R66                   "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    R66                   "Value"              "10K 0.125W SMD 0805"
+.ATT_COM    R71                   "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    R71                   "Value"              "10K 0.125W SMD 0805"
+.ATT_COM    R73                   "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    R73                   "Value"              "10K 0.125W SMD 0805"
+.ATT_COM    R74                   "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    R74                   "Value"              "10K 0.125W SMD 0805"
+.ATT_COM    R75                   "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    R76                   "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    R76                   "Value"              "10K 0.125W SMD 0805"
+.ATT_COM    R79                   "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    R79                   "Value"              "10K 0.125W SMD 0805"
+.ATT_COM    U4                    "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    U4                    "Value"              "A4989SLD SMD TSSOP38"
+.ATT_COM    R77                   "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    R77                   "Value"              "10K 0.125W SMD 0805"
+.ATT_COM    C38                   "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    C38                   "Value"              "100nF 50V X7R SMD 0805"
+.ATT_COM    R80                   "(OldCtfName)"       "(CTF_OLD_NAME_INVALID)"
+.ATT_COM    R80                   "Value"              "10K 0.125W SMD 0805"
+
+.ATT_PIN    J1         6          "ppp_con_width"      "10ml"
+.ATT_PIN    J1         6          "ppp_clearance"      "8ml"
+.ATT_PIN    J4         2          "ppp_con_width"      "10ml"
+.ATT_PIN    J4         2          "ppp_clearance"      "8ml"
+.ATT_PIN    J4         3          "ppp_clearance"      "8ml"
+.ATT_PIN    J4         3          "ppp_con_width"      "10ml"
+
+.ADD_TER    Q1           4          "N9398322"
+.TER        R2           2         
+            R1           1         
+            HTP28        1         
+
+.ADD_TER    R27          2          "N16860181"
+.TER        R36          1         
+            HTP10        1         
+
+.ADD_TER    R6           1          "N9528637"
+.TER        U1           13        
+            HTP57        1         
+
+.ADD_TER    J1           1          "DIRECTION"
+.TER        R21          1         
+            R20          1         
+
+.ADD_TER    R18          1          "FEEDBACK"
+.TER        J1           2         
+
+.ADD_TER    R10          2          "N9398070"
+.TER        Q3           4         
+            HTP25        1         
+            R11          1         
+
+.ADD_TER    R81          1          "SRAL"
+.TER        C26          2         
+            U4           7         
+
+.ADD_TER    J1           3          "SPEED"
+.TER        R23          1         
+            R22          1         
+
+.ADD_TER    HTP40        1          "CA1"
+.TER        C21          1         
+            U4           42        
+
+.ADD_TER    C13          1          "SRBH"
+.TER        HTP4         1         
+            R43          1         
+            U4           9         
+
+.ADD_TER    U1           2          "INT_BOOST"
+.TER        HTP48        1         
+            U2           26        
+
+.ADD_TER    R39          2          "LED_2"
+.TER        HTP17        1         
+            U2           5         
+
+.ADD_TER    R42          2          "/MCLR"
+.TER        HTP53        1         
+            U2           1         
+
+.ADD_TER    U3           3          "N16789547"
+.TER        R48          2         
+            R46          2         
+            C23          1         
+            D12          3         
+            HTP2         1         
+
+.ADD_TER    U1           4          "CCP1"
+.TER        HTP60        1         
+            U2           13        
+
+.ADD_TER    J4           5          "PGC"
+.TER        U2           27        
+
+.ADD_TER    J4           4          "PGD"
+.TER        U2           28        
+
+.ADD_TER    HTP51        1          "N9497968"
+.TER        R55          2         
+            D16          2         
+
+.ADD_TER    U1           6          "INT_DIRECTION"
+.TER        HTP63        1         
+            U2           25        
+
+.ADD_TER    J3           5          "N8453703"
+.TER        R7           2         
+            HTP22        1         
+
+.ADD_TER    U1           3          "N9458908"
+.TER        R22          2         
+            C8           1         
+            HTP65        1         
+
+.ADD_TER    C19          1          "VPP"
+.TER        R42          1         
+            J4           1         
+            D13          3         
+            R49          1         
+
+.ADD_TER    R25          1          "BOOST"
+.TER        J1           8         
+            R24          1         
+
+.ADD_TER    C11          1          "CCP5"
+.TER        HTP20        1         
+            U2           6         
+            R41          1         
+
+.ADD_TER    R56          2          "N9499426"
+.TER        HTP55        1         
+            U5           3         
+
+.ADD_TER    U5           6          "N9498514"
+.TER        HTP54        1         
+            R68          2         
+
+.ADD_TER    U1           5          "N9176915"
+.TER        C7           1         
+            R20          2         
+            HTP76        1         
+
+.ADD_TER    U1           1          "N9458346"
+.TER        R24          2         
+            C9           1         
+            HTP77        1         
+
+.ADD_TER    L2           1          "N9335748"
+.TER        J1           7         
+            HTP84        1         
+            HTP85        1         
+            HTP86        1         
+
+.ADD_TER    C24          1          "N16789561"
+.TER        U3           2         
+            D12          1         
+            D13          1         
+            R47          2         
+            HTP19        1         
+
+.ADD_TER    R35          1          "24V_TEST"
+.TER        R36          2         
+            C10          1         
+            HTP64        1         
+            U2           2         
+
+.ADD_TER    R18          2          "N9460672"
+.TER        U1           8         
+            HTP15        1         
+
+.ADD_TER    R9           2          "N9461652"
+.TER        U1           10        
+            HTP11        1         
+
+.ADD_TER    D7           1          "N16798096"
+.TER        R38          1         
+            HTP21        1         
+
+.ADD_TER    U5           7          "N9497719"
+.TER        HTP50        1         
+            C36          1         
+
+.ADD_TER    C33          1          "N9498157"
+.TER        HTP52        1         
+            U5           2         
+
+.ADD_TER    Y1           1          "OSC1"
+.TER        C17          1         
+            HTP62        1         
+            U2           9         
+
+.ADD_TER    R9           1          "DIR_FBCK"
+.TER        J1           4         
+            L1           1         
+
+.ADD_TER    U5           5          "N9498028"
+.TER        D16          1         
+            R67          1         
+            HTP30        1         
+
+.ADD_TER    HTP3         1          "SPI_CS_B"
+.TER        U2           16        
+            U4           13        
+
+.ADD_TER    HTP39        1          "CA2"
+.TER        C27          1         
+            U4           35        
+
+.ADD_TER    HTP107       1          "N9500653"
+.TER        HTP34        1         
+            R52          2         
+            C28          1         
+
+.ADD_TER    U1           12         "N9717472"
+.TER        HTP58        1         
+
+.ADD_TER    HTP33        1          "N9498211"
+.TER        D15          1         
+            R57          2         
+            C33          2         
+            U5           1         
+            L3           1         
+
+.ADD_TER    R3           1          "N9398210"
+.TER        R4           2         
+            Q2           4         
+            HTP27        1         
+
+.ADD_TER    HTP71        1          "SPI_CLK"
+.TER        U2           22        
+            U4           14        
+
+.ADD_TER    R26          1          "/ENABLE"
+.TER        HTP12        1         
+            U2           17        
+            U4           28        
+
+.ADD_TER    R38          2          "LED_1"
+.TER        HTP18        1         
+            U2           4         
+
+.ADD_TER    R19          2          "5VE_TEST"
+.TER        R37          1         
+            C6           1         
+            HTP49        1         
+            U2           3         
+
+.ADD_TER    R32          2          "N9419795"
+.TER        Q8           4         
+            R33          1         
+            HTP42        1         
+
+.ADD_TER    HTP9         1          "DCO"
+.TER        U2           15        
+            U4           25        
+
+.ADD_TER    R46          1          "5V_SUP"
+.TER        HTP13        1         
+            D11          1         
+            R45          1         
+
+.ADD_TER    D8           1          "N9442265"
+.TER        R39          1         
+            HTP46        1         
+
+.ADD_TER    Y1           2          "OSC2"
+.TER        C16          1         
+            HTP59        1         
+            U2           10        
+
+.ADD_TER    Q1           1          "BMB1"
+.TER        Q1           2         
+            Q1           3         
+            J2           4         
+            Q2           5         
+            Q2           6         
+            Q2           7         
+            Q2           8         
+            D4           1         
+            R1           2         
+            D3           2         
+            HTP81        1         
+            C15          2         
+            U4           48        
+
+.ADD_TER    HTP56        1          "N9500336"
+.TER        D17          1         
+            R71          1         
+
+.ADD_TER    R30          1          "N9418977"
+.TER        Q7           4         
+            R29          2         
+            HTP36        1         
+
+.ADD_TER    Q6           4          "N9419511"
+.TER        R15          2         
+            R31          1         
+            HTP43        1         
+
+.ADD_TER    HTP32        1          "CB1"
+.TER        C15          1         
+            U4           2         
+
+.ADD_TER    U1           9          "FEEDBACK_IN"
+.TER        R8           2         
+            R17          1         
+            J3           2         
+            HTP14        1         
+            R78          1         
+
+.ADD_TER    C41          1          "N9656708"
+.TER        U4           34        
+
+.ADD_TER    C39          1          "N9663342"
+.TER        U4           32        
+
+.ADD_TER    C39          2          "N9663360"
+.TER        U4           31        
+
+.ADD_TER    Q5           4          "N9398478"
+.TER        R13          2         
+            R14          1         
+            HTP29        1         
+
+.ADD_TER    HTP44        1          "OSC"
+.TER        R58          1         
+            U4           12        
+
+.ADD_TER    HTP1         1          "VREG"
+.TER        C30          1         
+            C31          1         
+            U4           3         
+
+.ADD_TER    U2           23         "SPI_MISO"
+.TER        U4           16        
+
+.ADD_TER    HTP16        1          "DCEN"
+.TER        U2           11        
+            R76          1         
+            U4           23        
+
+.ADD_TER    HTP72        1          "STEP_OUT"
+.TER        U2           18        
+            R41          2         
+            R62          1         
+            U4           17        
+
+.ADD_TER    R4           1          "LB1"
+.TER        HTP5         1         
+            U4           47        
+
+.ADD_TER    R30          2          "HA2"
+.TER        HTP6         1         
+            U4           36        
+
+.ADD_TER    R12          2          "N9419213"
+.TER        R28          1         
+            Q4           4         
+            HTP41        1         
+
+.ADD_TER    R12          1          "HA1"
+.TER        HTP45        1         
+            U4           41        
+
+.ADD_TER    HTP67        1          "DIR_OUT"
+.TER        U2           12        
+            R66          1         
+            U4           18        
+
+.ADD_TER    R2           1          "HB1"
+.TER        HTP37        1         
+            U4           1         
+
+.ADD_TER    R15          1          "LA1"
+.TER        HTP7         1         
+            U4           39        
+
+.ADD_TER    R14          2          "LB2"
+.TER        HTP73        1         
+            U4           46        
+
+.ADD_TER    R33          2          "LA2"
+.TER        HTP74        1         
+            U4           38        
+
+.ADD_TER    C3           1          "5V_EXT"
+.TER        HTP94        1         
+            R19          1         
+            R57          1         
+            L1           2         
+            HTP78        1         
+            HTP95        1         
+            HTP93        1         
+
+.ADD_TER    R75          1          "N9663452"
+.TER        U4           24        
+
+.ADD_TER    HTP8         1          "SRAH"
+.TER        C26          1         
+            R53          1         
+            U4           8         
+
+.ADD_TER    U2           24         "SPI_MOSI"
+.TER        U4           15        
+
+.ADD_TER    HTP35        1          "CB2"
+.TER        C14          1         
+            U4           43        
+
+.ADD_TER    HTP75        1          "N16842409"
+.TER        U2           7         
+            R78          2         
+            R79          2         
+
+.ADD_TER    C32          2          "N9658215"
+.TER        R72          1         
+            U4           5         
+
+.ADD_TER    C13          2          "SRBL"
+.TER        U4           10        
+            R80          1         
+
+.ADD_TER    U1           11         "DIR_FEEDBACK"
+.TER        HTP47        1         
+            U2           14        
+            R44          2         
+
+.ADD_TER    R5           1          "N9398154"
+.TER        Q5           1         
+            Q5           2         
+            Q5           3         
+            R3           2         
+            R13          1         
+            Q2           1         
+            Q2           2         
+            Q2           3         
+            R16          1         
+            HTP26        1         
+            HTP102       1         
+            HTP99        1         
+            R43          2         
+
+.ADD_TER    HTP108       1          "5V7_PRE"
+.TER        R52          1         
+            L3           2         
+            D11          2         
+            HTP38        1         
+            D14          2         
+            R55          1         
+            R51          1         
+            R47          1         
+
+.ADD_TER    D2           2          "BMB2"
+.TER        D1           1         
+            J2           3         
+            Q5           5         
+            Q5           6         
+            Q5           7         
+            Q5           8         
+            R10          1         
+            Q3           1         
+            Q3           2         
+            Q3           3         
+            HTP79        1         
+            C14          2         
+            U4           45        
+
+.ADD_TER    D9           2          "BMA2"
+.TER        J2           1         
+            Q8           5         
+            Q8           6         
+            Q8           7         
+            Q8           8         
+            D10          1         
+            Q7           1         
+            Q7           2         
+            Q7           3         
+            R29          1         
+            HTP80        1         
+            C27          2         
+            U4           37        
+
+.ADD_TER    R73          2          "DIAG0"
+.TER        R79          1         
+            U4           26        
+            R77          2         
+
+.ADD_TER    R74          1          "N9656204"
+.TER        U4           22        
+
+.ADD_TER    R17          2          "RB0 / INT0"
+.TER        HTP61        1         
+            U2           21        
+            R77          1         
+
+.ADD_TER    R72          2          "N9659410"
+.TER        U4           29        
+            C38          1         
+
+.ADD_TER    HTP69        1          "HB2"
+.TER        R11          2         
+            U4           44        
+
+.ADD_TER    D6           2          "BMA1"
+.TER        D5           1         
+            R28          2         
+            J2           2         
+            Q6           5         
+            Q6           6         
+            Q6           7         
+            Q6           8         
+            Q4           1         
+            Q4           2         
+            Q4           3         
+            HTP82        1         
+            C21          2         
+            U4           40        
+
+.ADD_TER    R32          1          "N9419133"
+.TER        R40          1         
+            Q8           1         
+            Q8           2         
+            Q8           3         
+            Q6           1         
+            Q6           2         
+            Q6           3         
+            R31          2         
+            HTP68        1         
+            R34          1         
+            HTP105       1         
+            HTP104       1         
+            R53          2         
+
+.ADD_TER    R26          2          "5V_INT"
+.TER        C22          1         
+            R48          1         
+            U1           14        
+            D7           2         
+            D8           2         
+            R8           1         
+            J4           2         
+            J3           3         
+            C18          1         
+            R7           1         
+            HTP98        1         
+            C2           1         
+            U2           20        
+            D14          1         
+            R51          2         
+            HTP97        1         
+            HTP96        1         
+            D17          2         
+            R44          1         
+            C29          1         
+            C25          1         
+            R73          1         
+            R74          2         
+            R75          2         
+            U4           20        
+            U4           21        
+
+.ADD_TER    C24          2          "0V24"
+.TER        R6           2         
+            C22          2         
+            R35          2         
+            D1           2         
+            D5           2         
+            R25          2         
+            C3           2         
+            R40          2         
+            U3           1         
+            R5           2         
+            U1           7         
+            C23          2         
+            J1           6         
+            D15          2         
+            R37          2         
+            C4           2         
+            R23          2         
+            C7           2         
+            C19          2         
+            D10          2         
+            C6           2         
+            R21          2         
+            C5           2         
+            R56          1         
+            J4           3         
+            J3           1         
+            J3           4         
+            C18          2         
+            C8           2         
+            D4           2         
+            C17          2         
+            C11          2         
+            C10          2         
+            C1           2         
+            C9           2         
+            C16          2         
+            R16          2         
+            R49          2         
+            C2           2         
+            HTP89        1         
+            C28          2         
+            U5           4         
+            HTP90        1         
+            C12          2         
+            C34          2         
+            U2           8         
+            U2           19        
+            R34          2         
+            R45          2         
+            HTP103       1         
+            HTP100       1         
+            HTP106       1         
+            C32          1         
+            HTP126       1         
+            HTP125       1         
+            HTP87        1         
+            HTP88        1         
+            HTP91        1         
+            HTP92        1         
+            HTP101       1         
+            R67          2         
+            C37          2         
+            C36          2         
+            C20          2         
+            R81          2         
+            C29          2         
+            C30          2         
+            C31          2         
+            R58          2         
+            C40          1         
+            C25          2         
+            R62          2         
+            R66          2         
+            R71          2         
+            R76          2         
+            U4           6         
+            U4           11        
+            U4           19        
+            U4           30        
+            U4           49        
+            C38          2         
+            R80          2         
+
+.ADD_TER    D6           1          "+24V"
+.TER        D2           1         
+            L2           2         
+            R27          1         
+            D9           1         
+            Q1           5         
+            Q1           6         
+            Q1           7         
+            Q1           8         
+            C4           1         
+            C5           1         
+            Q7           5         
+            Q7           6         
+            Q7           7         
+            Q7           8         
+            Q3           5         
+            Q3           6         
+            Q3           7         
+            Q3           8         
+            D3           1         
+            C1           1         
+            Q4           5         
+            Q4           6         
+            Q4           7         
+            Q4           8         
+            U5           8         
+            C12          1         
+            C34          1         
+            HTP83        1         
+            R68          1         
+            C37          1         
+            C20          1         
+            C40          2         
+            C41          2         
+            U4           4         
+            U4           33        
+
+.END

@@ -1,0 +1,1419 @@
+(netlist "9032685200"
+  (compinst "C1"
+    (patternName "L1557")
+    (compvalue "100 nF"))
+  (compinst "C10"
+    (patternName "L1557")
+    (compvalue "1000 pF"))
+  (compinst "C11"
+    (patternName "L1557")
+    (compvalue "10 uF"))
+  (compinst "C12"
+    (patternName "L2533")
+    (compvalue "47 uF"))
+  (compinst "C13"
+    (patternName "L1557")
+    (compvalue "100 nF"))
+  (compinst "C14"
+    (patternName "L1557")
+    (compvalue "100 nF"))
+  (compinst "C15"
+    (patternName "L1557")
+    (compvalue "100 nF"))
+  (compinst "C16"
+    (patternName "L1557")
+    (compvalue "22 pF"))
+  (compinst "C17"
+    (patternName "L1557")
+    (compvalue "22 pF"))
+  (compinst "C18"
+    (patternName "L1557")
+    (compvalue "100 nF"))
+  (compinst "C19"
+    (patternName "L1557")
+    (compvalue "100 pF"))
+  (compinst "C2"
+    (patternName "L1557")
+    (compvalue "100 nF"))
+  (compinst "C20"
+    (patternName "L1557")
+    (compvalue "100 nF"))
+  (compinst "C21"
+    (patternName "L1557")
+    (compvalue "100 nF"))
+  (compinst "C22"
+    (patternName "L1557")
+    (compvalue "100 nF"))
+  (compinst "C23"
+    (patternName "L1557")
+    (compvalue "100 nF"))
+  (compinst "C24"
+    (patternName "L1557")
+    (compvalue "1000 pF"))
+  (compinst "C25"
+    (patternName "L1557")
+    (compvalue "100 nF"))
+  (compinst "C26"
+    (patternName "L1557")
+    (compvalue "100 nF"))
+  (compinst "C27"
+    (patternName "L1557")
+    (compvalue "100 nF"))
+  (compinst "C28"
+    (patternName "L2002")
+    (compvalue "10 uF"))
+  (compinst "C29"
+    (patternName "L2002")
+    (compvalue "10 uF"))
+  (compinst "C3"
+    (patternName "L2002")
+    (compvalue "10 uF"))
+  (compinst "C30"
+    (patternName "L1743")
+    (compvalue "4.7 uF"))
+  (compinst "C31"
+    (patternName "L1743")
+    (compvalue "4.7 uF"))
+  (compinst "C32"
+    (patternName "L1743")
+    (compvalue "4.7 uF"))
+  (compinst "C33"
+    (patternName "L1557")
+    (compvalue "22 nF"))
+  (compinst "C34"
+    (patternName "L2533")
+    (compvalue "47 uF"))
+  (compinst "C36"
+    (patternName "L1557")
+    (compvalue "220 nF"))
+  (compinst "C37"
+    (patternName "L1557")
+    (compvalue "100 nF"))
+  (compinst "C38"
+    (patternName "L1557")
+    (compvalue "470 nF"))
+  (compinst "C39"
+    (patternName "L1557")
+    (compvalue "22 nF"))
+  (compinst "C4"
+    (patternName "L1557")
+    (compvalue "100 nF"))
+  (compinst "C40"
+    (patternName "L1557")
+    (compvalue "100 nF"))
+  (compinst "C41"
+    (patternName "L1557")
+    (compvalue "100 nF"))
+  (compinst "C5"
+    (patternName "L2533")
+    (compvalue "47 uF"))
+  (compinst "C6"
+    (patternName "L1557")
+    (compvalue "1000 pF"))
+  (compinst "C7"
+    (patternName "L1557")
+    (compvalue "100 pF"))
+  (compinst "C8"
+    (patternName "L1557")
+    (compvalue "100 pF"))
+  (compinst "C9"
+    (patternName "L1557")
+    (compvalue "100 pF"))
+  (compinst "D1"
+    (patternName "L2362")
+    (compvalue "15MQ040"))
+  (compinst "D10"
+    (patternName "L2362")
+    (compvalue "15MQ040"))
+  (compinst "D11"
+    (patternName "L13051")
+    (compvalue "MMSD4148"))
+  (compinst "D12"
+    (patternName "L1556")
+    (compvalue "BAT54"))
+  (compinst "D13"
+    (patternName "L1556")
+    (compvalue "BAT54"))
+  (compinst "D14"
+    (patternName "L13051")
+    (compvalue "MMSD4148"))
+  (compinst "D15"
+    (patternName "L2362")
+    (compvalue "15MQ040"))
+  (compinst "D16"
+    (patternName "L13051")
+    (compvalue "MMSD4148"))
+  (compinst "D17"
+    (patternName "L1557-LED")
+    (compvalue "QTLP630C-4"))
+  (compinst "D2"
+    (patternName "L2362")
+    (compvalue "15MQ040"))
+  (compinst "D3"
+    (patternName "L2362")
+    (compvalue "15MQ040"))
+  (compinst "D4"
+    (patternName "L2362")
+    (compvalue "15MQ040"))
+  (compinst "D5"
+    (patternName "L2362")
+    (compvalue "15MQ040"))
+  (compinst "D6"
+    (patternName "L2362")
+    (compvalue "15MQ040"))
+  (compinst "D7"
+    (patternName "L1557-LED")
+    (compvalue "QTLP630C-4"))
+  (compinst "D8"
+    (patternName "L1557-LED")
+    (compvalue "QTLP630C-4"))
+  (compinst "D9"
+    (patternName "L2362")
+    (compvalue "15MQ040"))
+  (compinst "HTP1"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP10"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP100"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP101"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP102"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP103"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP104"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP105"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP106"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP107"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP108"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP11"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP12"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP125"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP126"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP13"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP14"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP15"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP16"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP17"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP18"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP19"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP2"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP20"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP21"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP22"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP25"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP26"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP27"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP28"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP29"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP3"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP30"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP32"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP33"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP34"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP35"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP36"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP37"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP38"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP39"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP4"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP40"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP41"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP42"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP43"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP44"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP45"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP46"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP47"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP48"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP49"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP5"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP50"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP51"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP52"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP53"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP54"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP55"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP56"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP57"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP58"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP59"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP6"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP60"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP61"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP62"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP63"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP64"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP65"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP67"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP68"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP69"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP7"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP71"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP72"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP73"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP74"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP75"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP76"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP77"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP78"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP79"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP8"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP80"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP81"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP82"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP83"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP84"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP85"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP86"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP87"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP88"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP89"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP9"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP90"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP91"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP92"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP93"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP94"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP95"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP96"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP97"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP98"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "HTP99"
+    (patternName "TEST POINT")
+    (compvalue "TEST POINT"))
+  (compinst "J1"
+    (patternName "L5208")
+    (compvalue "4x2 pin"))
+  (compinst "J2"
+    (patternName "L15082")
+    (compvalue "4 pin"))
+  (compinst "J3"
+    (patternName "L15081")
+    (compvalue "5 pin"))
+  (compinst "J4"
+    (patternName "L3106")
+    (compvalue "6 pin"))
+  (compinst "L1"
+    (patternName "L1557")
+    (compvalue "BLM21PG220"))
+  (compinst "L2"
+    (patternName "L1557")
+    (compvalue "BLM21PG220"))
+  (compinst "L3"
+    (patternName "L16320")
+    (compvalue "330 uH"))
+  (compinst "Q1"
+    (patternName "L1662")
+    (compvalue "FDS5351"))
+  (compinst "Q2"
+    (patternName "L1662")
+    (compvalue "FDS5351"))
+  (compinst "Q3"
+    (patternName "L1662")
+    (compvalue "FDS5351"))
+  (compinst "Q4"
+    (patternName "L1662")
+    (compvalue "FDS5351"))
+  (compinst "Q5"
+    (patternName "L1662")
+    (compvalue "FDS5351"))
+  (compinst "Q6"
+    (patternName "L1662")
+    (compvalue "FDS5351"))
+  (compinst "Q7"
+    (patternName "L1662")
+    (compvalue "FDS5351"))
+  (compinst "Q8"
+    (patternName "L1662")
+    (compvalue "FDS5351"))
+  (compinst "R1"
+    (patternName "L1557")
+    (compvalue "470 K"))
+  (compinst "R10"
+    (patternName "L1557")
+    (compvalue "470 K"))
+  (compinst "R11"
+    (patternName "L1557")
+    (compvalue "33"))
+  (compinst "R12"
+    (patternName "L1557")
+    (compvalue "33"))
+  (compinst "R13"
+    (patternName "L1557")
+    (compvalue "470 K"))
+  (compinst "R14"
+    (patternName "L1557")
+    (compvalue "33"))
+  (compinst "R15"
+    (patternName "L1557")
+    (compvalue "33"))
+  (compinst "R16"
+    (patternName "L1660")
+    (compvalue "0.22"))
+  (compinst "R17"
+    (patternName "L1557")
+    (compvalue "4.7 K"))
+  (compinst "R18"
+    (patternName "L1557")
+    (compvalue "470"))
+  (compinst "R19"
+    (patternName "L1557")
+    (compvalue "1 K"))
+  (compinst "R2"
+    (patternName "L1557")
+    (compvalue "33"))
+  (compinst "R20"
+    (patternName "L1557")
+    (compvalue "470"))
+  (compinst "R21"
+    (patternName "L1557")
+    (compvalue "100 K"))
+  (compinst "R22"
+    (patternName "L1557")
+    (compvalue "470"))
+  (compinst "R23"
+    (patternName "L1557")
+    (compvalue "100 K"))
+  (compinst "R24"
+    (patternName "L1557")
+    (compvalue "470"))
+  (compinst "R25"
+    (patternName "L1557")
+    (compvalue "100 K"))
+  (compinst "R26"
+    (patternName "L1557")
+    (compvalue "10 K"))
+  (compinst "R27"
+    (patternName "L1557")
+    (compvalue "4.99 K"))
+  (compinst "R28"
+    (patternName "L1557")
+    (compvalue "470 K"))
+  (compinst "R29"
+    (patternName "L1557")
+    (compvalue "470 K"))
+  (compinst "R3"
+    (patternName "L1557")
+    (compvalue "470 K"))
+  (compinst "R30"
+    (patternName "L1557")
+    (compvalue "33"))
+  (compinst "R31"
+    (patternName "L1557")
+    (compvalue "470 K"))
+  (compinst "R32"
+    (patternName "L1557")
+    (compvalue "470 K"))
+  (compinst "R33"
+    (patternName "L1557")
+    (compvalue "33"))
+  (compinst "R34"
+    (patternName "L1660")
+    (compvalue "0.22"))
+  (compinst "R35"
+    (patternName "L1557")
+    (compvalue "1 K"))
+  (compinst "R36"
+    (patternName "L1557")
+    (compvalue "4.99 K"))
+  (compinst "R37"
+    (patternName "L1557")
+    (compvalue "1 K"))
+  (compinst "R38"
+    (patternName "L1557")
+    (compvalue "2.2 K"))
+  (compinst "R39"
+    (patternName "L1557")
+    (compvalue "2.2 K"))
+  (compinst "R4"
+    (patternName "L1557")
+    (compvalue "33"))
+  (compinst "R40"
+    (patternName "L1660")
+    (compvalue "0.22"))
+  (compinst "R41"
+    (patternName "L1557")
+    (compvalue "0"))
+  (compinst "R42"
+    (patternName "L1557")
+    (compvalue "100"))
+  (compinst "R43"
+    (patternName "L1557")
+    (compvalue "47 R"))
+  (compinst "R44"
+    (patternName "L1557")
+    (compvalue "10 K"))
+  (compinst "R45"
+    (patternName "L1557")
+    (compvalue "10 K"))
+  (compinst "R46"
+    (patternName "L1557")
+    (compvalue "0"))
+  (compinst "R47"
+    (patternName "L1557")
+    (compvalue "1.8 K"))
+  (compinst "R48"
+    (patternName "L1557")
+    (compvalue "0"))
+  (compinst "R49"
+    (patternName "L1557")
+    (compvalue "10 K"))
+  (compinst "R5"
+    (patternName "L1660")
+    (compvalue "0.22"))
+  (compinst "R51"
+    (patternName "L1557")
+    (compvalue "0"))
+  (compinst "R52"
+    (patternName "L1553")
+    (compvalue "3.9"))
+  (compinst "R53"
+    (patternName "L1557")
+    (compvalue "47 R"))
+  (compinst "R55"
+    (patternName "L1557")
+    (compvalue "1 K"))
+  (compinst "R56"
+    (patternName "L1557")
+    (compvalue "120 K"))
+  (compinst "R57"
+    (patternName "L1557")
+    (compvalue "0"))
+  (compinst "R58"
+    (patternName "L1557")
+    (compvalue "10 K"))
+  (compinst "R6"
+    (patternName "L1557")
+    (compvalue "10 K"))
+  (compinst "R62"
+    (patternName "L1557")
+    (compvalue "10 K"))
+  (compinst "R66"
+    (patternName "L1557")
+    (compvalue "10 K"))
+  (compinst "R67"
+    (patternName "L1557")
+    (compvalue "1 K"))
+  (compinst "R68"
+    (patternName "L1557")
+    (compvalue "82 K"))
+  (compinst "R7"
+    (patternName "L1557")
+    (compvalue "154"))
+  (compinst "R71"
+    (patternName "L1557")
+    (compvalue "2.2 K"))
+  (compinst "R72"
+    (patternName "RESC3116X65N_A")
+    (compvalue "2.2 R"))
+  (compinst "R73"
+    (patternName "L1557")
+    (compvalue "10 K"))
+  (compinst "R74"
+    (patternName "L1557")
+    (compvalue "10 K"))
+  (compinst "R75"
+    (patternName "L1557")
+    (compvalue "10 K"))
+  (compinst "R76"
+    (patternName "L1557")
+    (compvalue "10 K"))
+  (compinst "R77"
+    (patternName "L1557")
+    (compvalue "47 R"))
+  (compinst "R78"
+    (patternName "L1557")
+    (compvalue "4.7 K"))
+  (compinst "R79"
+    (patternName "L1557")
+    (compvalue "47 R"))
+  (compinst "R8"
+    (patternName "L1557")
+    (compvalue "10 K"))
+  (compinst "R80"
+    (patternName "L1557")
+    (compvalue "47 R"))
+  (compinst "R81"
+    (patternName "L1557")
+    (compvalue "47 R"))
+  (compinst "R9"
+    (patternName "L1557")
+    (compvalue "470"))
+  (compinst "U1"
+    (patternName "L1558")
+    (compvalue "74HC14"))
+  (compinst "U2"
+    (patternName "L8744")
+    (compvalue "PIC18F23K22"))
+  (compinst "U3"
+    (patternName "L13517")
+    (compvalue "CAT803L"))
+  (compinst "U4"
+    (patternName "TQFP50P900X900X120-49N")
+    (compvalue "TMC2160A-TA"))
+  (compinst "U5"
+    (patternName "L8313")
+    (compvalue "LM5009MM"))
+  (compinst "Y1"
+    (patternName "L13252")
+    (compvalue "10 MHz"))
+  (net "+24V"
+    (node "Q3" "5")
+    (node "Q3" "6")
+    (node "D6" "1")
+    (node "Q4" "5")
+    (node "Q4" "6")
+    (node "C4" "1")
+    (node "C12" "1")
+    (node "Q7" "5")
+    (node "Q7" "6")
+    (node "D3" "1")
+    (node "D9" "1")
+    (node "D2" "1")
+    (node "C1" "1")
+    (node "Q1" "5")
+    (node "Q1" "6")
+    (node "C20" "1")
+    (node "C5" "1")
+    (node "L2" "2")
+    (node "U5" "8")
+    (node "C37" "1")
+    (node "C34" "1")
+    (node "R27" "1")
+    (node "R68" "1")
+    (node "C41" "2")
+    (node "C40" "2")
+    (node "U4" "4")
+    (node "U4" "33")
+    (node "HTP83" "1")
+    (node "Q4" "7")
+    (node "Q4" "8")
+    (node "Q3" "7")
+    (node "Q3" "8")
+    (node "Q1" "7")
+    (node "Q1" "8")
+    (node "Q7" "7")
+    (node "Q7" "8"))
+  (net "/ENABLE"
+    (node "U2" "17")
+    (node "R26" "1")
+    (node "U4" "28")
+    (node "HTP12" "1"))
+  (net "/MCLR"
+    (node "R42" "2")
+    (node "U2" "1")
+    (node "HTP53" "1"))
+  (net "0V24"
+    (node "C25" "2")
+    (node "C4" "2")
+    (node "C12" "2")
+    (node "C29" "2")
+    (node "D5" "2")
+    (node "D4" "2")
+    (node "C30" "2")
+    (node "C31" "2")
+    (node "C1" "2")
+    (node "D10" "2")
+    (node "D1" "2")
+    (node "C20" "2")
+    (node "C5" "2")
+    (node "C2" "2")
+    (node "C10" "2")
+    (node "J4" "3")
+    (node "C16" "2")
+    (node "C17" "2")
+    (node "U1" "7")
+    (node "J1" "6")
+    (node "J3" "1")
+    (node "J3" "4")
+    (node "C3" "2")
+    (node "C6" "2")
+    (node "C28" "2")
+    (node "U5" "4")
+    (node "C37" "2")
+    (node "D15" "2")
+    (node "C34" "2")
+    (node "C36" "2")
+    (node "R21" "2")
+    (node "R25" "2")
+    (node "R35" "2")
+    (node "R37" "2")
+    (node "R23" "2")
+    (node "R66" "2")
+    (node "R58" "2")
+    (node "R16" "2")
+    (node "R62" "2")
+    (node "R5" "2")
+    (node "R40" "2")
+    (node "R34" "2")
+    (node "R56" "1")
+    (node "R71" "2")
+    (node "R67" "2")
+    (node "R6" "2")
+    (node "R45" "2")
+    (node "C24" "2")
+    (node "R49" "2")
+    (node "C23" "2")
+    (node "C11" "2")
+    (node "C18" "2")
+    (node "U2" "8")
+    (node "U2" "19")
+    (node "U3" "1")
+    (node "C22" "2")
+    (node "C7" "2")
+    (node "C9" "2")
+    (node "C8" "2")
+    (node "C19" "2")
+    (node "C32" "1")
+    (node "C38" "2")
+    (node "C40" "1")
+    (node "R76" "2")
+    (node "R80" "2")
+    (node "R81" "2")
+    (node "U4" "6")
+    (node "U4" "11")
+    (node "U4" "19")
+    (node "U4" "30")
+    (node "U4" "49")
+    (node "HTP87" "1")
+    (node "HTP88" "1")
+    (node "HTP89" "1")
+    (node "HTP90" "1")
+    (node "HTP91" "1")
+    (node "HTP92" "1")
+    (node "HTP125" "1")
+    (node "HTP126" "1")
+    (node "HTP100" "1")
+    (node "HTP101" "1")
+    (node "HTP106" "1")
+    (node "HTP103" "1"))
+  (net "24V_TEST"
+    (node "C10" "1")
+    (node "R35" "1")
+    (node "R36" "2")
+    (node "U2" "2")
+    (node "HTP64" "1"))
+  (net "5V7_PRE"
+    (node "D11" "2")
+    (node "L3" "2")
+    (node "D14" "2")
+    (node "R55" "1")
+    (node "R52" "1")
+    (node "R47" "1")
+    (node "R51" "1")
+    (node "HTP38" "1")
+    (node "HTP108" "1"))
+  (net "5VE_TEST"
+    (node "C6" "1")
+    (node "R37" "1")
+    (node "R19" "2")
+    (node "U2" "3")
+    (node "HTP49" "1"))
+  (net "5V_EXT"
+    (node "L1" "2")
+    (node "C3" "1")
+    (node "R19" "1")
+    (node "R57" "1")
+    (node "HTP78" "1")
+    (node "HTP93" "1")
+    (node "HTP94" "1")
+    (node "HTP95" "1"))
+  (net "5V_INT"
+    (node "C25" "1")
+    (node "C29" "1")
+    (node "C2" "1")
+    (node "J4" "2")
+    (node "U1" "14")
+    (node "J3" "3")
+    (node "D8" "2")
+    (node "D17" "2")
+    (node "D14" "1")
+    (node "R7" "1")
+    (node "R44" "1")
+    (node "R8" "1")
+    (node "R48" "1")
+    (node "C18" "1")
+    (node "D7" "2")
+    (node "U2" "20")
+    (node "R51" "2")
+    (node "C22" "1")
+    (node "R74" "2")
+    (node "R26" "2")
+    (node "R75" "2")
+    (node "R73" "1")
+    (node "U4" "20")
+    (node "U4" "21")
+    (node "HTP96" "1")
+    (node "HTP97" "1")
+    (node "HTP98" "1"))
+  (net "5V_SUP"
+    (node "D11" "1")
+    (node "R45" "1")
+    (node "R46" "1")
+    (node "HTP13" "1"))
+  (net "BMA1"
+    (node "D6" "2")
+    (node "Q4" "3")
+    (node "D5" "1")
+    (node "Q6" "5")
+    (node "Q6" "6")
+    (node "C21" "2")
+    (node "J2" "2")
+    (node "R28" "2")
+    (node "U4" "40")
+    (node "HTP82" "1")
+    (node "Q4" "1")
+    (node "Q4" "2")
+    (node "Q6" "7")
+    (node "Q6" "8"))
+  (net "BMA2"
+    (node "Q7" "3")
+    (node "J2" "1")
+    (node "Q8" "5")
+    (node "Q8" "6")
+    (node "D9" "2")
+    (node "C27" "2")
+    (node "D10" "1")
+    (node "R29" "1")
+    (node "U4" "37")
+    (node "HTP80" "1")
+    (node "Q8" "7")
+    (node "Q8" "8")
+    (node "Q7" "1")
+    (node "Q7" "2"))
+  (net "BMB1"
+    (node "D4" "1")
+    (node "C15" "2")
+    (node "D3" "2")
+    (node "Q2" "5")
+    (node "Q2" "6")
+    (node "J2" "4")
+    (node "Q1" "3")
+    (node "R1" "2")
+    (node "U4" "48")
+    (node "HTP81" "1")
+    (node "Q2" "7")
+    (node "Q2" "8")
+    (node "Q1" "1")
+    (node "Q1" "2"))
+  (net "BMB2"
+    (node "Q3" "3")
+    (node "C14" "2")
+    (node "J2" "3")
+    (node "Q5" "5")
+    (node "Q5" "6")
+    (node "D2" "2")
+    (node "D1" "1")
+    (node "R10" "1")
+    (node "U4" "45")
+    (node "HTP79" "1")
+    (node "Q5" "7")
+    (node "Q5" "8")
+    (node "Q3" "1")
+    (node "Q3" "2"))
+  (net "BOOST"
+    (node "J1" "8")
+    (node "R25" "1")
+    (node "R24" "1"))
+  (net "CA1"
+    (node "C21" "1")
+    (node "U4" "42")
+    (node "HTP40" "1"))
+  (net "CA2"
+    (node "C27" "1")
+    (node "U4" "35")
+    (node "HTP39" "1"))
+  (net "CB1"
+    (node "C15" "1")
+    (node "U4" "2")
+    (node "HTP32" "1"))
+  (net "CB2"
+    (node "C14" "1")
+    (node "U4" "43")
+    (node "HTP35" "1"))
+  (net "CCP1"
+    (node "U1" "4")
+    (node "U2" "13")
+    (node "HTP60" "1"))
+  (net "CCP5"
+    (node "C11" "1")
+    (node "R41" "1")
+    (node "U2" "6")
+    (node "HTP20" "1"))
+  (net "DCEN"
+    (node "U2" "11")
+    (node "R76" "1")
+    (node "U4" "23")
+    (node "HTP16" "1"))
+  (net "DCO"
+    (node "U2" "15")
+    (node "U4" "25")
+    (node "HTP9" "1"))
+  (net "DIAG0"
+    (node "R73" "2")
+    (node "R79" "1")
+    (node "R77" "2")
+    (node "U4" "26"))
+  (net "DIRECTION"
+    (node "J1" "1")
+    (node "R21" "1")
+    (node "R20" "1"))
+  (net "DIR_FBCK"
+    (node "J1" "4")
+    (node "L1" "1")
+    (node "R9" "1"))
+  (net "DIR_FEEDBACK"
+    (node "U1" "11")
+    (node "R44" "2")
+    (node "U2" "14")
+    (node "HTP47" "1"))
+  (net "DIR_OUT"
+    (node "R66" "1")
+    (node "U2" "12")
+    (node "U4" "18")
+    (node "HTP67" "1"))
+  (net "FEEDBACK"
+    (node "J1" "2")
+    (node "R18" "1"))
+  (net "FEEDBACK_IN"
+    (node "J3" "2")
+    (node "U1" "9")
+    (node "R17" "1")
+    (node "R8" "2")
+    (node "R78" "1")
+    (node "HTP14" "1"))
+  (net "HA1"
+    (node "R12" "1")
+    (node "U4" "41")
+    (node "HTP45" "1"))
+  (net "HA2"
+    (node "R30" "2")
+    (node "U4" "36")
+    (node "HTP6" "1"))
+  (net "HB1"
+    (node "R2" "1")
+    (node "U4" "1")
+    (node "HTP37" "1"))
+  (net "HB2"
+    (node "R11" "2")
+    (node "U4" "44")
+    (node "HTP69" "1"))
+  (net "INT_BOOST"
+    (node "U1" "2")
+    (node "U2" "26")
+    (node "HTP48" "1"))
+  (net "INT_DIRECTION"
+    (node "U1" "6")
+    (node "U2" "25")
+    (node "HTP63" "1"))
+  (net "LA1"
+    (node "R15" "1")
+    (node "U4" "39")
+    (node "HTP7" "1"))
+  (net "LA2"
+    (node "R33" "2")
+    (node "U4" "38")
+    (node "HTP74" "1"))
+  (net "LB1"
+    (node "R4" "1")
+    (node "U4" "47")
+    (node "HTP5" "1"))
+  (net "LB2"
+    (node "R14" "2")
+    (node "U4" "46")
+    (node "HTP73" "1"))
+  (net "LED_1"
+    (node "R38" "2")
+    (node "U2" "4")
+    (node "HTP18" "1"))
+  (net "LED_2"
+    (node "R39" "2")
+    (node "U2" "5")
+    (node "HTP17" "1"))
+  (net "N16789547"
+    (node "R48" "2")
+    (node "R46" "2")
+    (node "D12" "3")
+    (node "C23" "1")
+    (node "U3" "3")
+    (node "HTP2" "1"))
+  (net "N16789561"
+    (node "C24" "1")
+    (node "D12" "1")
+    (node "D13" "1")
+    (node "R47" "2")
+    (node "U3" "2")
+    (node "HTP19" "1"))
+  (net "N16798096"
+    (node "R38" "1")
+    (node "D7" "1")
+    (node "HTP21" "1"))
+  (net "N16842409"
+    (node "U2" "7")
+    (node "R78" "2")
+    (node "R79" "2")
+    (node "HTP75" "1"))
+  (net "N16860181"
+    (node "R27" "2")
+    (node "R36" "1")
+    (node "HTP10" "1"))
+  (net "N8453703"
+    (node "J3" "5")
+    (node "R7" "2")
+    (node "HTP22" "1"))
+  (net "N9176915"
+    (node "U1" "5")
+    (node "R20" "2")
+    (node "C7" "1")
+    (node "HTP76" "1"))
+  (net "N9335748"
+    (node "L2" "1")
+    (node "J1" "7")
+    (node "HTP84" "1")
+    (node "HTP85" "1")
+    (node "HTP86" "1"))
+  (net "N9398070"
+    (node "Q3" "4")
+    (node "R11" "1")
+    (node "R10" "2")
+    (node "HTP25" "1"))
+  (net "N9398154"
+    (node "Q2" "3")
+    (node "Q5" "3")
+    (node "R16" "1")
+    (node "R3" "2")
+    (node "R5" "1")
+    (node "R13" "1")
+    (node "R43" "2")
+    (node "HTP26" "1")
+    (node "HTP99" "1")
+    (node "HTP102" "1")
+    (node "Q5" "1")
+    (node "Q5" "2")
+    (node "Q2" "1")
+    (node "Q2" "2"))
+  (net "N9398210"
+    (node "Q2" "4")
+    (node "R3" "1")
+    (node "R4" "2")
+    (node "HTP27" "1"))
+  (net "N9398322"
+    (node "Q1" "4")
+    (node "R1" "1")
+    (node "R2" "2")
+    (node "HTP28" "1"))
+  (net "N9398478"
+    (node "Q5" "4")
+    (node "R14" "1")
+    (node "R13" "2")
+    (node "HTP29" "1"))
+  (net "N9418977"
+    (node "Q7" "4")
+    (node "R30" "1")
+    (node "R29" "2")
+    (node "HTP36" "1"))
+  (net "N9419133"
+    (node "Q6" "3")
+    (node "Q8" "3")
+    (node "R32" "1")
+    (node "R31" "2")
+    (node "R40" "1")
+    (node "R34" "1")
+    (node "R53" "2")
+    (node "HTP68" "1")
+    (node "HTP104" "1")
+    (node "HTP105" "1")
+    (node "Q8" "1")
+    (node "Q8" "2")
+    (node "Q6" "1")
+    (node "Q6" "2"))
+  (net "N9419213"
+    (node "Q4" "4")
+    (node "R12" "2")
+    (node "R28" "1")
+    (node "HTP41" "1"))
+  (net "N9419511"
+    (node "Q6" "4")
+    (node "R31" "1")
+    (node "R15" "2")
+    (node "HTP43" "1"))
+  (net "N9419795"
+    (node "Q8" "4")
+    (node "R32" "2")
+    (node "R33" "1")
+    (node "HTP42" "1"))
+  (net "N9442265"
+    (node "D8" "1")
+    (node "R39" "1")
+    (node "HTP46" "1"))
+  (net "N9458346"
+    (node "U1" "1")
+    (node "R24" "2")
+    (node "C9" "1")
+    (node "HTP77" "1"))
+  (net "N9458908"
+    (node "R22" "2")
+    (node "U1" "3")
+    (node "C8" "1")
+    (node "HTP65" "1"))
+  (net "N9460672"
+    (node "U1" "8")
+    (node "R18" "2")
+    (node "HTP15" "1"))
+  (net "N9461652"
+    (node "U1" "10")
+    (node "R9" "2")
+    (node "HTP11" "1"))
+  (net "N9497719"
+    (node "U5" "7")
+    (node "C36" "1")
+    (node "HTP50" "1"))
+  (net "N9497968"
+    (node "D16" "2")
+    (node "R55" "2")
+    (node "HTP51" "1"))
+  (net "N9498028"
+    (node "U5" "5")
+    (node "D16" "1")
+    (node "R67" "1")
+    (node "HTP30" "1"))
+  (net "N9498157"
+    (node "U5" "2")
+    (node "C33" "1")
+    (node "HTP52" "1"))
+  (net "N9498211"
+    (node "U5" "1")
+    (node "D15" "1")
+    (node "L3" "1")
+    (node "C33" "2")
+    (node "R57" "2")
+    (node "HTP33" "1"))
+  (net "N9498514"
+    (node "U5" "6")
+    (node "R68" "2")
+    (node "HTP54" "1"))
+  (net "N9499426"
+    (node "U5" "3")
+    (node "R56" "2")
+    (node "HTP55" "1"))
+  (net "N9500336"
+    (node "D17" "1")
+    (node "R71" "1")
+    (node "HTP56" "1"))
+  (net "N9500653"
+    (node "C28" "1")
+    (node "R52" "2")
+    (node "HTP107" "1")
+    (node "HTP34" "1"))
+  (net "N9528637"
+    (node "U1" "13")
+    (node "R6" "1")
+    (node "HTP57" "1"))
+  (net "N9656204"
+    (node "R74" "1")
+    (node "U4" "22"))
+  (net "N9656708"
+    (node "C41" "1")
+    (node "U4" "34"))
+  (net "N9658215"
+    (node "C32" "2")
+    (node "R72" "1")
+    (node "U4" "5"))
+  (net "N9659410"
+    (node "R72" "2")
+    (node "C38" "1")
+    (node "U4" "29"))
+  (net "N9663342"
+    (node "C39" "1")
+    (node "U4" "32"))
+  (net "N9663360"
+    (node "C39" "2")
+    (node "U4" "31"))
+  (net "N9663452"
+    (node "R75" "1")
+    (node "U4" "24"))
+  (net "N9717472"
+    (node "U1" "12")
+    (node "HTP58" "1"))
+  (net "OSC"
+    (node "R58" "1")
+    (node "U4" "12")
+    (node "HTP44" "1"))
+  (net "OSC1"
+    (node "Y1" "1")
+    (node "C17" "1")
+    (node "U2" "9")
+    (node "HTP62" "1"))
+  (net "OSC2"
+    (node "C16" "1")
+    (node "Y1" "2")
+    (node "U2" "10")
+    (node "HTP59" "1"))
+  (net "PGC"
+    (node "J4" "5")
+    (node "U2" "27"))
+  (net "PGD"
+    (node "J4" "4")
+    (node "U2" "28"))
+  (net "RB0 / INT0"
+    (node "R17" "2")
+    (node "U2" "21")
+    (node "R77" "1")
+    (node "HTP61" "1"))
+  (net "SPEED"
+    (node "J1" "3")
+    (node "R23" "1")
+    (node "R22" "1"))
+  (net "SPI_CLK"
+    (node "U2" "22")
+    (node "U4" "14")
+    (node "HTP71" "1"))
+  (net "SPI_CS_B"
+    (node "U2" "16")
+    (node "U4" "13")
+    (node "HTP3" "1"))
+  (net "SPI_MISO"
+    (node "U2" "23")
+    (node "U4" "16"))
+  (net "SPI_MOSI"
+    (node "U2" "24")
+    (node "U4" "15"))
+  (net "SRAH"
+    (node "C26" "1")
+    (node "R53" "1")
+    (node "U4" "8")
+    (node "HTP8" "1"))
+  (net "SRAL"
+    (node "C26" "2")
+    (node "R81" "1")
+    (node "U4" "7"))
+  (net "SRBH"
+    (node "C13" "1")
+    (node "R43" "1")
+    (node "U4" "9")
+    (node "HTP4" "1"))
+  (net "SRBL"
+    (node "C13" "2")
+    (node "R80" "1")
+    (node "U4" "10"))
+  (net "STEP_OUT"
+    (node "R62" "1")
+    (node "R41" "2")
+    (node "U2" "18")
+    (node "U4" "17")
+    (node "HTP72" "1"))
+  (net "VPP"
+    (node "J4" "1")
+    (node "R42" "1")
+    (node "R49" "1")
+    (node "D13" "3")
+    (node "C19" "1"))
+  (net "VREG"
+    (node "C30" "1")
+    (node "C31" "1")
+    (node "U4" "3")
+    (node "HTP1" "1")))
