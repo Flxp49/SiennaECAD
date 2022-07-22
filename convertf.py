@@ -1,118 +1,113 @@
 
+from cmath import log
 from openpyxl import load_workbook
-import csv
 import xlrd
+import pandas as pd
 files = []
+dfs = []
+# =========================================================================================
 
 
-def createFormattedFile(data, filename):
-    filename = (filename.split(".")[0]+"-f.csv")
-    with open(filename, mode='w', newline='') as csv_file:
-        fieldnames = ['Net Name', 'Component Name']
-        writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
+def createDataFrame(data):
+    dfs.append(pd.DataFrame(data, columns=["Net Name", "Net Node"]))
+    print(dfs[0])
 
-        writer.writeheader()
-        writer.writerows(data)
+# ==============================================================================================
 
-    print("Data written to", filename)
-
-
+# For altium.net
 def processNet(filename):
     original_data = list()
     final_data = list()
-    column_one = ""
-    column_two = ""
     c = 0
     with open(filename, "r") as file:
         for line in file.readlines():
             if line.strip() != "":
                 original_data.append(line.strip())
 
-        for i in range(0, len(original_data)):
-            if original_data[i] not in ["[", "]", "(", ")"] and c == 0:
-                column_one = original_data[i]
-                c = c+1
-            elif original_data[i] not in ["[", "]", "(", ")"] and c != 0:
-                column_two = original_data[i]
-                temp_dict = {
-                    "Net Name": column_one.replace('"', ''),
-                    "Component Name": (column_two.replace("-", ".")).replace('"', '')
-                }
-                final_data.append(temp_dict)
-            else:
-                c = 0
+    for i in range(len(original_data)):
+        if original_data[i] == "(":
+            original_data = original_data[i:]
+            break
 
-    createFormattedFile(final_data, filename)
-
-# Cadence, Xpedition -> XLS
-# Allego, Xpedition -> XLSX
-
-def processXls(filename, fmt):
-    type = int(input("Enter the type of file for " +
-               str(filename) + ", 1: Cadence OR 2: Xpedition OR 3: Allego "))
-    final_data = list()
-    column_one = ""
-    column_two = ""
-    if fmt == "xls":
-        if type == 1:
-            wb = xlrd.open_workbook(filename)
-            sheet = wb.sheet_by_index(0)
-            for i in range(3, sheet.nrows):
-                column_one = sheet.cell_value(i, 0)
-                cmps = sheet.cell_value(i, 1).split()
-                for j in cmps:
-                    column_two = j
-                    temp_dict = {
-                        "Net Name": column_one.replace('"', ''),
-                        "Component Name": (column_two.replace("-", ".")).replace('"', '')
-                    }
-                    final_data.append(temp_dict)
-
-        elif type == 2:
-            wb = xlrd.open_workbook(filename)
-            sheet = wb.sheet_by_index(0)
-            for i in range(3, sheet.nrows):
-                if (sheet.cell_value(i, 0) != ""):
-                    column_one = sheet.cell_value(i, 0)
-                    continue
-                elif (sheet.cell_value(i, 0) == "" and sheet.cell_value(i, 3) == ""):
-                    continue
-                elif (sheet.cell_value(i, 0) == ""):
-                    column_two = sheet.cell_value(i, 3)
-                    temp_dict = {
-                        "Net Name": column_one.replace('"', ''),
-                        "Component Name": (column_two.replace("-", ".")).replace('"', '')
-                    }
-                    final_data.append(temp_dict)
+    for i in range(0, len(original_data)):
+        if original_data[i] not in ["(", ")"] and c == 0:
+            column_one = original_data[i].replace('"', '')
+            c = c+1
+        elif original_data[i] not in ["(", ")"] and c != 0:
+            column_two = original_data[i].replace("-", ".").replace('"', '')
+            final_data.append([column_one, column_two])
         else:
-            print("Invalid input, Please enter 1 or 2 for xls files")
-            return
+            c = 0
+    
+    createDataFrame(final_data)
 
-    else:
-        if type == 2 or 3:
-            wb = load_workbook(filename)
-            sheet = wb[wb.sheetnames[0]]
-            s = 2 if type == 2 else 6
-            for row in range(s, sheet.max_row+1):
-                for column in "AB":
-                    cell = "{}{}".format(column, row)
-                    if column == "A" and sheet[cell].value != None:
-                        column_one = sheet[cell].value
-                    elif column == "B" and sheet[cell].value != None:
-                        cmps = sheet[cell].value.split()
-                        for j in cmps:
-                            column_two = j
-                            temp_dict = {
-                                "Net Name": column_one.replace('"', ''),
-                                "Component Name": (column_two.replace("-", ".")).replace('"', '')
-                            }
-                            final_data.append(temp_dict)
+# processNet("Netlist/Altium/Altium.net")
 
-        else:
-            print("Invalid input, Please enter 2 or 3 for xlsx files")
-            return
 
-    createFormattedFile(final_data, filename)
+# for AllegroPCB.xls
+
+def processXls(filename):
+    pd.read_excel(filename, usecols="A,B", skiprows=3, engine="openpyxl")
+    # print(pd)
+    # final_data = list()
+    # wb = xlrd.open_workbook(filename)
+    # sheet = wb.sheet_by_index(0)
+    # for i in range(5, sheet.nrows):
+    #     print(sheet.cell_value(i, 0))
+        # column_one = sheet.cell_value(i, 0).replace('"', '')
+        # cmps = sheet.cell_value(i, 1).split()
+        # for j in cmps:
+        #     column_two = j.replace("-", ".").replace('"', '')
+        #     final_data.append([column_one, column_two])
+    
+    # print(final_data)
+    # createDataFrame(final_data)
+
+# processNet("Netlist/Allegro/PCB.xlsx")
+    
+    # elif type == 2:
+    #     wb = xlrd.open_workbook(filename)
+    #     sheet = wb.sheet_by_index(0)
+    #     for i in range(3, sheet.nrows):
+    #         if (sheet.cell_value(i, 0) != ""):
+    #             column_one = sheet.cell_value(i, 0)
+    #             continue
+    #         elif (sheet.cell_value(i, 0) == "" and sheet.cell_value(i, 3) == ""):
+    #             continue
+    #         elif (sheet.cell_value(i, 0) == ""):
+    #             column_two = sheet.cell_value(i, 3)
+    #             temp_dict = {
+    #                 "Net Name": column_one.replace('"', ''),
+    #                 "Component Name": (column_two.replace("-", ".")).replace('"', '')
+    #             }
+    #             final_data.append(temp_dict)
+    # else:
+    #     print("Invalid input, Please enter 1 or 2 for xls files")
+    #     return
+
+    # else:
+    #     if type == 2 or 3:
+    #         wb = load_workbook(filename)
+    #         sheet = wb[wb.sheetnames[0]]
+    #         s = 2 if type == 2 else 6
+    #         for row in range(s, sheet.max_row+1):
+    #             for column in "AB":
+    #                 cell = "{}{}".format(column, row)
+    #                 if column == "A" and sheet[cell].value != None:
+    #                     column_one = sheet[cell].value
+    #                 elif column == "B" and sheet[cell].value != None:
+    #                     cmps = sheet[cell].value.split()
+    #                     for j in cmps:
+    #                         column_two = j
+    #                         temp_dict = {
+    #                             "Net Name": column_one.replace('"', ''),
+    #                             "Component Name": (column_two.replace("-", ".")).replace('"', '')
+    #                         }
+    #                         final_data.append(temp_dict)
+
+    # else:
+    #     print("Invalid input, Please enter 2 or 3 for xlsx files")
+    #     return
 
 
 def processText(filename):
@@ -135,7 +130,6 @@ def processText(filename):
         print("ERROR, TextType unknown.")
         return
 
-    createFormattedFile(fdata, filename)
 
 
 def getTextType(data):
@@ -188,14 +182,14 @@ def getMappings(data, type):
         return final_data
 
 
-n = int(input("Enter the no files to convert: "))
-for i in range(n):
-    files.append(input("Enter filename" + str(i+1)+": "))
-for file in files:
-    fileformat = file.split(".")[1]
-    if fileformat == "txt":
-        processText(file)
-    elif fileformat == "xls" or fileformat == "xlsx":
-        processXls(file, fileformat)
-    elif fileformat == "net":
-        processNet(file)
+# n = int(input("Enter the no files to convert: "))
+# for i in range(n):
+#     files.append(input("Enter filename" + str(i+1)+": "))
+# for file in files:
+#     fileformat = file.split(".")[1]
+#     if fileformat == "txt":
+#         processText(file)
+#     elif fileformat == "xls" or fileformat == "xlsx":
+#         processXls(file, fileformat)
+#     elif fileformat == "net":
+#         processNet(file)
